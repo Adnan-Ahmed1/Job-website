@@ -3130,7 +3130,7 @@ a {
     grid-template-columns: 220px 20px 1fr;
     align-items: start;
     gap: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .details-tabs .tab-content section .highlight-grid .row-item .label {
@@ -3305,6 +3305,7 @@ a {
     border: 1px solid #cbd5e1;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .details-tabs .tab-content section .table-wrapper .vacancy-table {
@@ -3318,8 +3319,7 @@ a {
 .details-tabs .tab-content section .table-wrapper .vacancy-table thead th {
     padding: 10px 20px;
     font-size: 15px;
-    font-weight: 700;
-    color: #555;
+    font-weight: 600;
 }
 
 .details-tabs .tab-content section .table-wrapper .vacancy-table tbody td {
@@ -3392,10 +3392,184 @@ a {
     border-radius: 6px;
 }
 
+.details-tabs .tab-content section .fee-table{
+    border:1px solid #cbd5e1;
+    border-radius:8px;
+    overflow:hidden;
+    background:#fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.details-tabs .tab-content section .fee-table .fee-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cbd5e1;
+    margin-bottom: 10px;
+}
+
+.details-tabs .tab-content section .fee-table .fee-row .fee-left{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#555;
+    font-size:15px;
+}
+
+.details-tabs .tab-content section .fee-table .fee-row .fee-left .dot,
+.details-tabs .tab-content section .fee-table .payment-section .payment-title .dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:#555;
+    flex-shrink:0;
+}
+
+.details-tabs .tab-content section .fee-table .fee-row .fee-left strong,
+.details-tabs .tab-content section .fee-table .payment-section .payment-title strong{
+    font-weight: 600;
+}
+
+.details-tabs .tab-content section .fee-table .fee-row .fee-right{
+    font-size:15px;
+    font-weight:600;
+}
+
+.details-tabs .tab-content section .fee-table .payment-section .payment-title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:15px;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.details-tabs .tab-content section .fee-table .payment-section .payment-methods{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.details-tabs .tab-content section .fee-table .payment-section .payment-methods .method{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#555;
+    font-size:15px;
+}
+
+.details-tabs .tab-content section .fee-table .payment-section .payment-methods .method i{
+    font-size:25px;
+    color:var(--primary);
+}
+
+.details-tabs .tab-content section .fee-table .payment-section .payment-methods .method .imps{
+    font-size: 25px;
+    font-weight: 600;
+    color:#555;
+    font-style:italic;
+}
+
+.fee-note-box{
+    margin-top: 20px;
+    background: var(--bg-light-green);
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+    font-size: 15px;
+}
+
+.fee-note-box strong {
+    font-weight: 600;
+}
+
+.details-tabs .tab-content section .syllabus-tabs{
+    border-bottom:1px solid #cbd5e1;
+    margin-bottom:14px;
+}
+
+.details-tabs .tab-content section .syllabus-tabs .nav-link{
+    color: #555;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.details-tabs .tab-content section .syllabus-tabs .nav-link.active{
+    color:var(--primary);
+}
+
+.details-tabs .tab-content section .syllabus-tabs .nav-link.active::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-1px;
+    width:100%;
+    height:2px;
+    background:var(--primary);
+}
+
+.details-tabs .tab-content section .syllabus-table-wrap{
+    border:1px solid #cbd5e1;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.details-tabs .tab-content section .syllabus-table-wrap .syllabus-table{
+    margin:0;
+}
+
+.details-tabs .tab-content section .syllabus-table-wrap .syllabus-table thead th{
+    background: var(--bg-main);
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.details-tabs .tab-content section .syllabus-table-wrap .syllabus-table tbody td{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #555;
+    border-color: #cbd5e1;
+}
+
+.details-tabs .tab-content section .syllabus-table-wrap .syllabus-table tbody td:first-child{
+    font-weight:600;
+}
+
+.details-tabs .tab-content section .syllabus-table-wrap .syllabus-table tbody tr:last-child td{
+    border-bottom:none;
+}
+
+.details-tabs .tab-content section .syllabus-note{
+    margin-top: 20px;
+    background: var(--bg-light-green);
+    color: var(--primary);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.details-tabs .tab-content section .syllabus-note strong{
+    font-weight:600;
+}
+
 .details-tabs .tab-content section .process-flow {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 20px;
 }
 
 .details-tabs .tab-content section .process-flow .step {
@@ -3482,6 +3656,200 @@ a {
     margin-top: 35px;
     font-size: 28px;
     color: #b8c0cc;
+    font-weight: 600;
+}
+
+.details-tabs .tab-content section .apply-wrapper {
+    margin-top: 20px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline{
+    position:relative;
+    border-right: 1px solid #cbd5e1;
+    padding-right: 25px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item{
+    position:relative;
+    display:flex;
+    gap:18px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item:not(:last-child)::before{
+    content:"";
+    position:absolute;
+    left:20px;
+    top:40px;
+    width:2px;
+    height:100%;
+    background:#d1fae5;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item .step-icon{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:var(--primary);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink: 0;
+    font-size:16px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item .step-header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cbd5e1;
+    margin-bottom: 15px;
+    display:flex;
+    gap:18px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item:last-child .step-header{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item .step-header .step-number{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: var(--bg-light-green);
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item .step-header .step-content h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .apply-timeline .step-item .step-header .step-content p{
+    font-size: 14px;
+    color: #555;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card{
+    background:var(--bg-light-green);
+    border:1px solid #d1fae5;
+    border-radius:12px;
+    padding: 25px 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-header{
+    display:flex;
+    gap:15px;
+    align-items: center;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-header .video-icon{
+    width:40px;
+    height:40px;
+    border:1px solid var(--primary);
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink: 0;
+    color:var(--primary);
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-header .video-content h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-header .video-content p{
+    font-size: 14px;
+    color: #555;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-thumbnail{
+    position:relative;
+    overflow:hidden;
+    border-radius:12px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-thumbnail img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .video-thumbnail .play-btn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:80px;
+    height:60px;
+    background:#ff0033;
+    border-radius:15px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .watch{
+    display:flex;
+    gap:10px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .watch .play-icon{
+    width: 40px;
+    height: 30px;
+    background: #ff0033;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .watch-link{
+    display:inline-flex;
+    gap:10px;
+    align-items:center;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.details-tabs .tab-content section .apply-wrapper .video-card .watch-text{
+    color:#555;
+    font-size:14px;
+    margin-top:6px;
+}
+
+.details-tabs .tab-content section .apply-wrapper .note-box{
+    margin-top: 20px;
+    background: var(--bg-light-green);
+    color: var(--primary);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.details-tabs .tab-content section .apply-wrapper .note-box strong {
     font-weight: 600;
 }
 

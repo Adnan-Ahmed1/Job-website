@@ -93,7 +93,7 @@
                                     <div class="state-name">
                                         Karnataka
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -114,7 +114,7 @@
                                     <div class="state-name">
                                         Delhi
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -135,7 +135,7 @@
                                     <div class="state-name">
                                         Gujarat
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -160,7 +160,7 @@
                                     <div class="state-name">
                                         SSC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -181,7 +181,7 @@
                                     <div class="state-name">
                                         UPSC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -202,7 +202,7 @@
                                     <div class="state-name">
                                         Railways
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -223,7 +223,7 @@
                                     <div class="state-name">
                                         Banking
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -253,7 +253,7 @@
                                     <div class="state-name">
                                         Maharashtra
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -274,7 +274,7 @@
                                     <div class="state-name">
                                         UP
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -295,7 +295,7 @@
                                     <div class="state-name">
                                         Bihar
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -320,7 +320,7 @@
                                     <div class="state-name">
                                         SSC CGL
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -341,7 +341,7 @@
                                     <div class="state-name">
                                         UPSC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -362,7 +362,7 @@
                                     <div class="state-name">
                                         RRB
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -392,7 +392,7 @@
                                     <div class="state-name">
                                         UP
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -413,7 +413,7 @@
                                     <div class="state-name">
                                         Rajasthan
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -438,7 +438,7 @@
                                     <div class="state-name">
                                         SSC GD
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -459,7 +459,7 @@
                                     <div class="state-name">
                                         RRB NTPC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -489,7 +489,7 @@
                                     <div class="state-name">
                                         UP
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -510,7 +510,7 @@
                                     <div class="state-name">
                                         Delhi
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -535,7 +535,7 @@
                                     <div class="state-name">
                                         SSC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -556,7 +556,7 @@
                                     <div class="state-name">
                                         UPSC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -586,7 +586,7 @@
                                     <div class="state-name">
                                         Delhi
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -607,7 +607,7 @@
                                     <div class="state-name">
                                         Karnataka
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -632,7 +632,7 @@
                                     <div class="state-name">
                                         NTA
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -653,7 +653,7 @@
                                     <div class="state-name">
                                         CUET
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -683,7 +683,7 @@
                                     <div class="state-name">
                                         UP
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -704,7 +704,7 @@
                                     <div class="state-name">
                                         Bihar
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -729,7 +729,7 @@
                                     <div class="state-name">
                                         NSP
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -750,7 +750,7 @@
                                     <div class="state-name">
                                         UGC
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -780,7 +780,7 @@
                                     <div class="state-name">
                                         Gujarat
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -801,7 +801,7 @@
                                     <div class="state-name">
                                         MP
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -826,7 +826,7 @@
                                     <div class="state-name">
                                         PM Kisan
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -847,7 +847,7 @@
                                     <div class="state-name">
                                         PMAY
                                     </div>
-                                    <a href="#" class="view-jobs">
+                                    <a href="javascript:void(0);" class="view-jobs">
                                         View Details
                                         <i class="fas fa-arrow-right"></i>
                                     </a>

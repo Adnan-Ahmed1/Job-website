@@ -17,28 +17,17 @@ new WOW().init();
     const items = Array.from(content.querySelectorAll('.trending-item'));
     if (items.length === 0) return;
 
-    // Canvas overlay for dust particles
-    const canvas = document.createElement('canvas');
-    canvas.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:10;';
-    wrap.appendChild(canvas);
-    const ctx = canvas.getContext('2d');
-    let particles = [];
+    const LAYER_COUNT = 10;
+    const FADE_ZONE = 90;           // px from left edge where disintegration begins
+    const ANIM_DURATION = 600;      // ms for each dust layer animation
     let isPaused = false;
+    let activeSnaps = new Set();    // track items currently disintegrating
 
-    function resizeCanvas() {
-        const r = wrap.getBoundingClientRect();
-        canvas.width = r.width;
-        canvas.height = r.height;
-    }
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
-
-    // Pre-capture each item offscreen (uses captureElementHidden defined below)
+    // Pre-capture each item using the same captureElementHidden from the Thanos engine
     const itemCanvasMap = new Map();
     async function preCaptureItems() {
         for (const item of items) {
             try {
-                // captureElementHidden is hoisted from the Thanos engine below
                 const cap = await captureElementHidden(item);
                 itemCanvasMap.set(item, cap);
             } catch (e) { console.warn('Trending capture fail:', e); }
@@ -46,84 +35,76 @@ new WOW().init();
     }
     setTimeout(preCaptureItems, 1500);
 
-    // Dust particle
-    class Dust {
-        constructor(x, y, color) {
-            this.x = x; this.y = y;
-            this.size = 1.5 + Math.random() * 3;
-            this.vx = -(1.5 + Math.random() * 3);
-            this.vy = (Math.random() - 0.5) * 2.5;
-            this.opacity = 0.7 + Math.random() * 0.3;
-            this.decay = 0.02 + Math.random() * 0.03;
-            this.color = color;
-            this.rot = Math.random() * Math.PI * 2;
-            this.rotV = (Math.random() - 0.5) * 0.15;
-        }
-        update() {
-            this.x += this.vx; this.y += this.vy;
-            this.opacity -= this.decay;
-            this.rot += this.rotV;
-            this.size *= 0.99;
-        }
-        draw(c) {
-            if (this.opacity <= 0) return;
-            c.save();
-            c.globalAlpha = this.opacity;
-            c.translate(this.x, this.y);
-            c.rotate(this.rot);
-            c.fillStyle = this.color;
-            c.fillRect(-this.size / 2, -this.size / 2, this.size, this.size);
-            c.restore();
-        }
-        isDead() { return this.opacity <= 0 || this.x < -30; }
+    function triggerItemDisintegration(item) {
+        if (activeSnaps.has(item)) return;
+        const captured = itemCanvasMap.get(item);
+        if (!captured) return;
+
+        activeSnaps.add(item);
+
+        // Split captured canvas into dust layers (reuse the global function)
+        const dustLayers = splitIntoDustLayers(captured, LAYER_COUNT);
+        const rect = item.getBoundingClientRect();
+
+        // Place each dust layer canvas exactly over the item
+        dustLayers.forEach(canvas => {
+            canvas.className = 'thanos-dust-layer trending-dust';
+            canvas.style.cssText = `
+                position: fixed;
+                left: ${rect.left}px;
+                top: ${rect.top}px;
+                width: ${rect.width}px;
+                height: ${rect.height}px;
+                pointer-events: none;
+                z-index: 99999;
+                will-change: transform, opacity;
+                transition: none;
+            `;
+            document.body.appendChild(canvas);
+        });
+
+        // Animate each layer drifting away with stagger
+        dustLayers.forEach((canvas, i) => {
+            const delay = i * 25 + Math.random() * 30;
+            const duration = ANIM_DURATION + Math.random() * 200;
+            const xDrift = -(30 + Math.random() * 60);
+            const yDrift = -15 + Math.random() * 30;
+            const rotate = -15 + Math.random() * 30;
+            const scale = 0.5 + Math.random() * 0.4;
+
+            setTimeout(() => {
+                canvas.style.transition = `
+                    transform ${duration}ms cubic-bezier(0.22, 0.61, 0.36, 1),
+                    opacity ${duration}ms ease-out
+                `;
+                canvas.style.transform = `translate(${xDrift}px, ${yDrift}px) rotate(${rotate}deg) scale(${scale})`;
+                canvas.style.opacity = '0';
+
+                setTimeout(() => canvas.remove(), duration + 50);
+            }, delay);
+        });
+
+        // Clean up after animation finishes
+        const totalTime = LAYER_COUNT * 25 + 30 + ANIM_DURATION + 200 + 100;
+        setTimeout(() => {
+            activeSnaps.delete(item);
+        }, totalTime);
     }
 
     function tick() {
-        const wr = wrap.getBoundingClientRect();
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-
         if (!isPaused) {
-            const ZONE = 70; // px from left edge
+            const wr = wrap.getBoundingClientRect();
+
             items.forEach(item => {
-                const cap = itemCanvasMap.get(item);
-                if (!cap) return;
                 const ir = item.getBoundingClientRect();
-                const iL = ir.left - wr.left;
-                const iR = ir.right - wr.left;
+                const itemRight = ir.right - wr.left;
+                const itemLeft = ir.left - wr.left;
 
-                if (iR > 0 && iL < ZONE) {
-                    const oL = Math.max(0, iL);
-                    const oR = Math.min(ZONE, iR);
-                    if (oR <= oL) return;
-
-                    const cCtx = cap.getContext('2d');
-                    const cw = cap.width, ch = cap.height;
-                    const iw = ir.width, ih = ir.height;
-
-                    for (let i = 0; i < 4; i++) {
-                        const px = oL + Math.random() * (oR - oL);
-                        const cx = Math.floor(((px - iL) / iw) * cw);
-                        const cy = Math.floor(Math.random() * ch);
-                        let color = 'rgba(15,23,42,1)';
-                        try {
-                            const p = cCtx.getImageData(
-                                Math.max(0, Math.min(cx, cw - 1)),
-                                Math.max(0, Math.min(cy, ch - 1)), 1, 1
-                            ).data;
-                            if (p[3] > 10) color = `rgba(${p[0]},${p[1]},${p[2]},1)`;
-                        } catch (e) { }
-                        const py = (ir.top - wr.top) + (cy / ch) * ih;
-                        particles.push(new Dust(px, py, color));
-                    }
+                // When item enters the fade zone on the left
+                if (itemRight > 0 && itemLeft < FADE_ZONE && itemRight < FADE_ZONE + ir.width * 0.5) {
+                    triggerItemDisintegration(item);
                 }
             });
-        }
-
-        // Draw all particles (even when paused, let existing ones finish)
-        for (let i = particles.length - 1; i >= 0; i--) {
-            particles[i].update();
-            particles[i].draw(ctx);
-            if (particles[i].isDead()) particles.splice(i, 1);
         }
         requestAnimationFrame(tick);
     }
@@ -712,22 +693,97 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// ==================== SCROLL TO SECTION ==================== //
+// ==================== SCROLL TO SECTION & STICKY NAV & SCROLLSPY ==================== //
 const navLinks = document.querySelectorAll(".tab-nav li a");
+const tabNav = document.querySelector(".details-tabs .tab-nav");
+const detailsTabs = document.querySelector(".details-tabs");
 
+// Dynamically gather target sections from navigation links to support any container tag type (div, section, etc.)
+const tabSections = [];
 navLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-        e.preventDefault(); // prevent default jump
+    const target = document.querySelector(link.getAttribute("href"));
+    if (target) {
+        tabSections.push(target);
+    }
+});
 
-        const target = document.querySelector(this.getAttribute("href"));
 
-        window.scrollTo({
-            top: target.offsetTop - 20, // adjust gap from top
-            behavior: "smooth"
+if (navLinks.length && tabNav) {
+    navLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const target = document.querySelector(this.getAttribute("href"));
+            if (!target) return;
+
+            // Offset when sticky is active (~52px tall + 20px top spacing = 72px + breathing room)
+            const offset = 80;
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const targetRect = target.getBoundingClientRect().top;
+            const targetPosition = targetRect - bodyRect;
+            const scrollPosition = targetPosition - offset;
+
+            window.scrollTo({
+                top: scrollPosition,
+                behavior: "smooth"
+            });
+
+            // Set active class immediately
+            navLinks.forEach(l => l.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+
+    // Detect sticky state and update Scrollspy on scroll
+    window.addEventListener("scroll", () => {
+        if (!detailsTabs) return;
+
+        // 1. Detect if tab-nav is stuck (top: 20px is when it sticks)
+        const rect = detailsTabs.getBoundingClientRect();
+        if (rect.top <= 20) {
+            tabNav.classList.add("is-sticky");
+        } else {
+            tabNav.classList.remove("is-sticky");
+        }
+
+        // 2. Scrollspy detection
+        if (!tabSections.length) return;
+        let current = "";
+        const scrollPosition = window.scrollY + 100; // Detector threshold line
+
+        tabSections.forEach(section => {
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const sectionRect = section.getBoundingClientRect().top;
+            const sectionTop = sectionRect - bodyRect;
+            if (scrollPosition >= sectionTop) {
+                current = section.getAttribute("id");
+            }
         });
 
-        // Optional: update active class
-        navLinks.forEach(l => l.classList.remove("active"));
-        this.classList.add("active");
+        if (current) {
+            navLinks.forEach(a => {
+                if (a.getAttribute("href") === `#${current}`) {
+                    if (!a.classList.contains("active")) {
+                        navLinks.forEach(l => l.classList.remove("active"));
+                        a.classList.add("active");
+
+                        // Auto-scroll the tab bar horizontally if in sticky state and overflows
+                        if (tabNav.classList.contains("is-sticky")) {
+                            const activeLi = a.parentElement;
+                            const navLeft = tabNav.scrollLeft;
+                            const navRight = navLeft + tabNav.clientWidth;
+                            const liLeft = activeLi.offsetLeft;
+                            const liRight = liLeft + activeLi.clientWidth;
+
+                            if (liLeft < navLeft) {
+                                tabNav.scrollTo({ left: liLeft - 10, behavior: 'smooth' });
+                            } else if (liRight > navRight) {
+                                tabNav.scrollTo({ left: liRight - tabNav.clientWidth + 10, behavior: 'smooth' });
+                            }
+                        }
+                    }
+                }
+            });
+        }
     });
-});
+}

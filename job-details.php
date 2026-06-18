@@ -5,13 +5,13 @@
     <section class="breadcrumb-section">
         <div class="container">
             <div class="breadcrumb mb-0">
-                <a href="#">Home</a>
+                <a href="javascript:void(0);">Home</a>
                 <i class="far fa-angle-right"></i>
-                <a href="#">States</a>
+                <a href="javascript:void(0);">States</a>
                 <i class="far fa-angle-right"></i>
-                <a href="#">Maharashtra</a>
+                <a href="javascript:void(0);">Maharashtra</a>
                 <i class="far fa-angle-right"></i>
-                <a href="#">Jobs</a>
+                <a href="javascript:void(0);">Jobs</a>
                 <i class="far fa-angle-right"></i>
                 <span>MPSC State Service Combine Group B & C 2024</span>
             </div>
@@ -56,11 +56,11 @@
                                     </div>
                                 </div>
                                 <div class="action">
-                                    <a href="#" class="btn apply">
+                                    <a href="javascript:void(0);" class="btn apply">
                                         Apply Online <i class="far fa-external-link-alt"></i>
                                     </a>
 
-                                    <a href="#" class="btn share">
+                                    <a href="javascript:void(0);" class="btn share">
                                         <i class="far fa-share-alt"></i> Share
                                     </a>
                                 </div>
@@ -76,7 +76,7 @@
                             <li><a href="#fee"><i class="far fa-money-bill-wave"></i>Fees</a></li>
                             <li><a href="#syllabus"><i class="far fa-book"></i>Syllabus</a></li>
                             <li><a href="#selection"><i class="far fa-tasks"></i>Selection Process</a></li>
-                            <li><a href="#apply"><i class="far fa-file-alt"></i>How to Apply</a></li>
+                            <li><a href="#apply"><i class="far fa-search"></i>How to Apply</a></li>
                         </ul>
                         <div class="tab-content">
                             <section id="overview">
@@ -355,7 +355,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="fee-note-box">
+                                <div class="main-note-box">
                                     <i class="far fa-circle-info"></i>
                                     <strong>Note:</strong>
                                     Once the payment is done successfully, the fee is non-refundable under any circumstances.
@@ -455,7 +455,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="syllabus-note">
+                                <div class="main-note-box">
                                     <i class="far fa-info-circle"></i><strong>Note:</strong> Detailed syllabus subject-wise is available in the official notification.
                                 </div>
                             </section>
@@ -529,7 +529,7 @@
                                             <div class="apply-timeline">
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="fas fa-user-plus"></i>
+                                                        <i class="far fa-user-plus"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">01</div>
@@ -544,7 +544,7 @@
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="fas fa-file-alt"></i>
+                                                        <i class="far fa-file-alt"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">02</div>
@@ -559,7 +559,7 @@
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="fas fa-cloud-upload-alt"></i>
+                                                        <i class="far fa-cloud-upload-alt"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">03</div>
@@ -574,7 +574,7 @@
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="fas fa-credit-card"></i>
+                                                        <i class="far fa-credit-card"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">04</div>
@@ -589,7 +589,7 @@
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="fas fa-check-circle"></i>
+                                                        <i class="far fa-check-circle"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">05</div>
@@ -619,7 +619,7 @@
                                                 </div>
                                                 <div class="video-thumbnail">
                                                     <img src="img/thumbnail.jpg" alt="Video">
-                                                    <a href="#" class="play-btn">
+                                                    <a href="javascript:void(0);" class="play-btn">
                                                         <i class="fas fa-play"></i>
                                                     </a>
                                                 </div>
@@ -628,7 +628,7 @@
                                                         <i class="fas fa-play"></i>
                                                     </div>
                                                     <div class="watch-content">
-                                                        <a href="#" class="watch-link">
+                                                        <a href="javascript:void(0);" class="watch-link">
                                                             Watch on YouTube
                                                             <i class="far fa-external-link-alt"></i>
                                                         </a>
@@ -640,7 +640,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="note-box">
+                                    <div class="main-note-box">
                                         <i class="far fa-info-circle"></i><strong>Note:</strong>Please keep a printout of the final submitted application form for your records.
                                     </div>
                                 </div>
@@ -651,50 +651,45 @@
                 <div class="col-lg-3">
                     <div class="detail-sidebar-sticky">
                         <div class="details-sidebar">
-                            <h3>Quick Info</h3>
-                            <div class="info-list">
-                                <div class="info-row">
-                                    <span class="label">Organization</span>
-                                    <span class="colon">:</span>
-                                    <span class="value">MPSC</span>
-                                </div>
-                                <div class="info-row">
-                                    <span class="label">Exam Name</span>
-                                    <span class="colon">:</span>
-                                    <span class="value">
-                                        State Service Combine Group B & C 2024
-                                    </span>
-                                </div>
-                                <div class="info-row">
-                                    <span class="label">Total Posts</span>
-                                    <span class="colon">:</span>
-                                    <span class="value">1250</span>
-                                </div>
-                                <div class="info-row">
-                                    <span class="label">Job Location</span>
-                                    <span class="colon">:</span>
-                                    <span class="value">Maharashtra</span>
-                                </div>
-                                <div class="info-row">
-                                    <span class="label">Application Mode</span>
-                                    <span class="colon">:</span>
-                                    <span class="value">Online</span>
-                                </div>
-                                <div class="info-row">
-                                    <span class="label">Official Website</span>
-                                    <span class="colon">:</span>
-                                    <a href="javascript:void(0);" class="value link">
-                                        mpsc.gov.in <i class="far fa-external-link-alt"></i>
+                            <h3>Related Resources</h3>
+                            <ul class="category-nav-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="active">
+                                        <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Jobs</h6>
                                     </a>
-                                </div>
-                            </div>
-                            <div class="divider"></div>
-                            <a href="javascript:void(0);" class="btn apply-btn">
-                                Apply Online <i class="far fa-external-link-alt"></i>
-                            </a>
-                            <a href="javascript:void(0);" class="btn download-btn">
-                                <i class="fa-solid fa-download"></i> Download Notification
-                            </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Admit Card</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Result</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Answer Key</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Syllabus</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Question Papers</h6>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="details-sidebar">
                             <h3>Documents</h3>
@@ -737,7 +732,7 @@
                         <div class="details-sidebar">
                             <div class="card-header">
                                 <h3>Similar Jobs</h3>
-                                <a href="#" class="view-all">
+                                <a href="javascript:void(0);" class="view-all">
                                     View All
                                     <i class="far fa-arrow-right"></i>
                                 </a>

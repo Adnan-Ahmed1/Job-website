@@ -1479,85 +1479,85 @@
                                                                                 <li>
                                                                                         SSC Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">SSC CGL</a></li>
-                                                                                                <li><a href="#">SSC CHSL</a></li>
-                                                                                                <li><a href="#">SSC MTS</a></li>
-                                                                                                <li><a href="#">SSC GD Constable</a></li>
-                                                                                                <li><a href="#">SSC JE</a></li>
-                                                                                                <li><a href="#">SSC CPO</a></li>
-                                                                                                <li><a href="#">SSC Stenographer</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC CGL</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC CHSL</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC MTS</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC GD Constable</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC JE</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC CPO</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC Stenographer</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         Banking Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">IBPS PO</a></li>
-                                                                                                <li><a href="#">IBPS Clerk</a></li>
-                                                                                                <li><a href="#">IBPS Specialist Officer</a></li>
-                                                                                                <li><a href="#">SBI PO</a></li>
-                                                                                                <li><a href="#">SBI Clerk</a></li>
-                                                                                                <li><a href="#">RBI Assistant</a></li>
-                                                                                                <li><a href="#">RBI Grade B</a></li>
-                                                                                                <li><a href="#">NABARD Grade A/B</a></li>
+                                                                                                <li><a href="javascript:void(0);">IBPS PO</a></li>
+                                                                                                <li><a href="javascript:void(0);">IBPS Clerk</a></li>
+                                                                                                <li><a href="javascript:void(0);">IBPS Specialist Officer</a></li>
+                                                                                                <li><a href="javascript:void(0);">SBI PO</a></li>
+                                                                                                <li><a href="javascript:void(0);">SBI Clerk</a></li>
+                                                                                                <li><a href="javascript:void(0);">RBI Assistant</a></li>
+                                                                                                <li><a href="javascript:void(0);">RBI Grade B</a></li>
+                                                                                                <li><a href="javascript:void(0);">NABARD Grade A/B</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         Railway Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">RRB NTPC</a></li>
-                                                                                                <li><a href="#">RRB Group D</a></li>
-                                                                                                <li><a href="#">RRB ALP</a></li>
-                                                                                                <li><a href="#">RRB JE</a></li>
-                                                                                                <li><a href="#">RRB Technician</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB NTPC</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB Group D</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB ALP</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB JE</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB Technician</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         Police Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">UP Police</a></li>
-                                                                                                <li><a href="#">Bihar Police</a></li>
-                                                                                                <li><a href="#">Rajasthan Police</a></li>
-                                                                                                <li><a href="#">CAPF AC/ASPC</a></li>
-                                                                                                <li><a href="#">BSF Constable</a></li>
-                                                                                                <li><a href="#">CISF</a></li>
-                                                                                                <li><a href="#">CRPF</a></li>
+                                                                                                <li><a href="javascript:void(0);">UP Police</a></li>
+                                                                                                <li><a href="javascript:void(0);">Bihar Police</a></li>
+                                                                                                <li><a href="javascript:void(0);">Rajasthan Police</a></li>
+                                                                                                <li><a href="javascript:void(0);">CAPF AC/ASPC</a></li>
+                                                                                                <li><a href="javascript:void(0);">BSF Constable</a></li>
+                                                                                                <li><a href="javascript:void(0);">CISF</a></li>
+                                                                                                <li><a href="javascript:void(0);">CRPF</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         Defence Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">NDA</a></li>
-                                                                                                <li><a href="#">CDS</a></li>
-                                                                                                <li><a href="#">AFCAT</a></li>
-                                                                                                <li><a href="#">Indian Coast Guard</a></li>
-                                                                                                <li><a href="#">TES (Technical Entry)</a></li>
+                                                                                                <li><a href="javascript:void(0);">NDA</a></li>
+                                                                                                <li><a href="javascript:void(0);">CDS</a></li>
+                                                                                                <li><a href="javascript:void(0);">AFCAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">Indian Coast Guard</a></li>
+                                                                                                <li><a href="javascript:void(0);">TES (Technical Entry)</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         Teaching & Education
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">CTET</a></li>
-                                                                                                <li><a href="#">TET (State-Level)</a></li>
-                                                                                                <li><a href="#">UGC NET / CSIR NET</a></li>
-                                                                                                <li><a href="#">State Teacher Exams (HTET, STET, etc.)</a></li>
+                                                                                                <li><a href="javascript:void(0);">CTET</a></li>
+                                                                                                <li><a href="javascript:void(0);">TET (State-Level)</a></li>
+                                                                                                <li><a href="javascript:void(0);">UGC NET / CSIR NET</a></li>
+                                                                                                <li><a href="javascript:void(0);">State Teacher Exams (HTET, STET, etc.)</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         UPSC & PSC Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">UPSC Civil Services (IAS/IPS/IFS)</a></li>
-                                                                                                <li><a href="#">UPSC EPFO</a></li>
-                                                                                                <li><a href="#">UPSC Combined Geo-Scientist</a></li>
-                                                                                                <li><a href="#">State PSC Exams (UPPSC, MPPSC, BPSC, etc.)</a></li>
+                                                                                                <li><a href="javascript:void(0);">UPSC Civil Services (IAS/IPS/IFS)</a></li>
+                                                                                                <li><a href="javascript:void(0);">UPSC EPFO</a></li>
+                                                                                                <li><a href="javascript:void(0);">UPSC Combined Geo-Scientist</a></li>
+                                                                                                <li><a href="javascript:void(0);">State PSC Exams (UPPSC, MPPSC, BPSC, etc.)</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                                 <li>
                                                                                         Other Govt Jobs
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">Postal Circle Jobs</a></li>
-                                                                                                <li><a href="#">Technical Govt Recruitment Exams</a></li>
-                                                                                                <li><a href="#">Junior Engineer / Assistant Engineer</a></li>
-                                                                                                <li><a href="#">Bank Insurance Jobs (LIC AAO, GIC, UIIC)</a></li>
+                                                                                                <li><a href="javascript:void(0);">Postal Circle Jobs</a></li>
+                                                                                                <li><a href="javascript:void(0);">Technical Govt Recruitment Exams</a></li>
+                                                                                                <li><a href="javascript:void(0);">Junior Engineer / Assistant Engineer</a></li>
+                                                                                                <li><a href="javascript:void(0);">Bank Insurance Jobs (LIC AAO, GIC, UIIC)</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                         </ul>
@@ -1574,152 +1574,152 @@
                                                                                 <li>
                                                                                         Engineering
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">JEE Main</a></li>
-                                                                                                <li><a href="#">JEE Advanced</a></li>
-                                                                                                <li><a href="#">BITSAT</a></li>
-                                                                                                <li><a href="#">VITEEE</a></li>
-                                                                                                <li><a href="#">SRMJEEE</a></li>
-                                                                                                <li><a href="#">COMEDK UGET</a></li>
-                                                                                                <li><a href="#">KIITEE</a></li>
-                                                                                                <li><a href="#">WBJEE</a></li>
-                                                                                                <li><a href="#">MHT-CET</a></li>
-                                                                                                <li><a href="#">KEAM</a></li>
-                                                                                                <li><a href="#">AP EAMCET</a></li>
-                                                                                                <li><a href="#">TS EAMCET</a></li>
-                                                                                                <li><a href="#">TNEA</a></li>
-                                                                                                <li><a href="#">OJEE</a></li>
-                                                                                                <li><a href="#">UPSEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">JEE Main</a></li>
+                                                                                                <li><a href="javascript:void(0);">JEE Advanced</a></li>
+                                                                                                <li><a href="javascript:void(0);">BITSAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">VITEEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">SRMJEEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">COMEDK UGET</a></li>
+                                                                                                <li><a href="javascript:void(0);">KIITEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">WBJEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">MHT-CET</a></li>
+                                                                                                <li><a href="javascript:void(0);">KEAM</a></li>
+                                                                                                <li><a href="javascript:void(0);">AP EAMCET</a></li>
+                                                                                                <li><a href="javascript:void(0);">TS EAMCET</a></li>
+                                                                                                <li><a href="javascript:void(0);">TNEA</a></li>
+                                                                                                <li><a href="javascript:void(0);">OJEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">UPSEE</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Medical
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">NEET UG</a></li>
-                                                                                                <li><a href="#">NEET PG</a></li>
-                                                                                                <li><a href="#">AIIMS MBBS</a></li>
-                                                                                                <li><a href="#">AIIMS PG</a></li>
-                                                                                                <li><a href="#">JIPMER MBBS</a></li>
-                                                                                                <li><a href="#">AFMC Entrance</a></li>
-                                                                                                <li><a href="#">State-Level Medical Exams (KEAM, KCET, OJEE)</a></li>
+                                                                                                <li><a href="javascript:void(0);">NEET UG</a></li>
+                                                                                                <li><a href="javascript:void(0);">NEET PG</a></li>
+                                                                                                <li><a href="javascript:void(0);">AIIMS MBBS</a></li>
+                                                                                                <li><a href="javascript:void(0);">AIIMS PG</a></li>
+                                                                                                <li><a href="javascript:void(0);">JIPMER MBBS</a></li>
+                                                                                                <li><a href="javascript:void(0);">AFMC Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">State-Level Medical Exams (KEAM, KCET, OJEE)</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Management
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">CAT</a></li>
-                                                                                                <li><a href="#">XAT</a></li>
-                                                                                                <li><a href="#">MAT</a></li>
-                                                                                                <li><a href="#">CMAT</a></li>
-                                                                                                <li><a href="#">SNAP</a></li>
-                                                                                                <li><a href="#">NMAT by GMAC</a></li>
-                                                                                                <li><a href="#">ATMA</a></li>
-                                                                                                <li><a href="#">MAH CET</a></li>
+                                                                                                <li><a href="javascript:void(0);">CAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">XAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">MAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">CMAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">SNAP</a></li>
+                                                                                                <li><a href="javascript:void(0);">NMAT by GMAC</a></li>
+                                                                                                <li><a href="javascript:void(0);">ATMA</a></li>
+                                                                                                <li><a href="javascript:void(0);">MAH CET</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Law
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">CLAT</a></li>
-                                                                                                <li><a href="#">AILET</a></li>
-                                                                                                <li><a href="#">LSAT India</a></li>
-                                                                                                <li><a href="#">MHCET Law</a></li>
-                                                                                                <li><a href="#">PU Law Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">CLAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">AILET</a></li>
+                                                                                                <li><a href="javascript:void(0);">LSAT India</a></li>
+                                                                                                <li><a href="javascript:void(0);">MHCET Law</a></li>
+                                                                                                <li><a href="javascript:void(0);">PU Law Entrance</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         University & PG
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">CUET UG</a></li>
-                                                                                                <li><a href="#">CUET PG</a></li>
-                                                                                                <li><a href="#">Delhi University Entrance</a></li>
-                                                                                                <li><a href="#">IGNOU Entrance</a></li>
-                                                                                                <li><a href="#">BHU UET/PET</a></li>
-                                                                                                <li><a href="#">Banaras Hindu University Entrance</a></li>
-                                                                                                <li><a href="#">Jamia Millia Islamia Entrance</a></li>
-                                                                                                <li><a href="#">AMU Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">CUET UG</a></li>
+                                                                                                <li><a href="javascript:void(0);">CUET PG</a></li>
+                                                                                                <li><a href="javascript:void(0);">Delhi University Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">IGNOU Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">BHU UET/PET</a></li>
+                                                                                                <li><a href="javascript:void(0);">Banaras Hindu University Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">Jamia Millia Islamia Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">AMU Entrance</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Defence
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">NDA</a></li>
-                                                                                                <li><a href="#">CDS</a></li>
-                                                                                                <li><a href="#">AFCAT</a></li>
-                                                                                                <li><a href="#">Indian Coast Guard Entrance</a></li>
-                                                                                                <li><a href="#">SSB Interview</a></li>
+                                                                                                <li><a href="javascript:void(0);">NDA</a></li>
+                                                                                                <li><a href="javascript:void(0);">CDS</a></li>
+                                                                                                <li><a href="javascript:void(0);">AFCAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">Indian Coast Guard Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSB Interview</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Banking
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">IBPS PO</a></li>
-                                                                                                <li><a href="#">IBPS Clerk</a></li>
-                                                                                                <li><a href="#">SBI PO</a></li>
-                                                                                                <li><a href="#">SBI Clerk</a></li>
-                                                                                                <li><a href="#">RBI Assistant/Grade B</a></li>
+                                                                                                <li><a href="javascript:void(0);">IBPS PO</a></li>
+                                                                                                <li><a href="javascript:void(0);">IBPS Clerk</a></li>
+                                                                                                <li><a href="javascript:void(0);">SBI PO</a></li>
+                                                                                                <li><a href="javascript:void(0);">SBI Clerk</a></li>
+                                                                                                <li><a href="javascript:void(0);">RBI Assistant/Grade B</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Government Job Exams
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">SSC CGL</a></li>
-                                                                                                <li><a href="#">SSC CHSL</a></li>
-                                                                                                <li><a href="#">SSC MTS</a></li>
-                                                                                                <li><a href="#">SSC JE</a></li>
-                                                                                                <li><a href="#">SSC GD Constable</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC CGL</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC CHSL</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC MTS</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC JE</a></li>
+                                                                                                <li><a href="javascript:void(0);">SSC GD Constable</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Railways
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">RRB NTPC</a></li>
-                                                                                                <li><a href="#">RRB Group D</a></li>
-                                                                                                <li><a href="#">RRB ALP</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB NTPC</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB Group D</a></li>
+                                                                                                <li><a href="javascript:void(0);">RRB ALP</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Teaching & Education
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">CTET</a></li>
-                                                                                                <li><a href="#">TET (State-Level)</a></li>
+                                                                                                <li><a href="javascript:void(0);">CTET</a></li>
+                                                                                                <li><a href="javascript:void(0);">TET (State-Level)</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Design & Fashion
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">NATA</a></li>
-                                                                                                <li><a href="#">UCEED</a></li>
-                                                                                                <li><a href="#">CEED</a></li>
-                                                                                                <li><a href="#">NID DAT</a></li>
-                                                                                                <li><a href="#">NIFT Entrance</a></li>
-                                                                                                <li><a href="#">AIEED</a></li>
+                                                                                                <li><a href="javascript:void(0);">NATA</a></li>
+                                                                                                <li><a href="javascript:void(0);">UCEED</a></li>
+                                                                                                <li><a href="javascript:void(0);">CEED</a></li>
+                                                                                                <li><a href="javascript:void(0);">NID DAT</a></li>
+                                                                                                <li><a href="javascript:void(0);">NIFT Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">AIEED</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Agriculture & Forestry
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">ICAR AIEEA</a></li>
-                                                                                                <li><a href="#">IARI Entrance</a></li>
-                                                                                                <li><a href="#">AFMC</a></li>
-                                                                                                <li><a href="#">FRI Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">ICAR AIEEA</a></li>
+                                                                                                <li><a href="javascript:void(0);">IARI Entrance</a></li>
+                                                                                                <li><a href="javascript:void(0);">AFMC</a></li>
+                                                                                                <li><a href="javascript:void(0);">FRI Entrance</a></li>
                                                                                         </ul>
                                                                                 </li>
 
                                                                                 <li>
                                                                                         Hotel & Hospitality
                                                                                         <ul class="nested-menu">
-                                                                                                <li><a href="#">NCHM JEE</a></li>
+                                                                                                <li><a href="javascript:void(0);">NCHM JEE</a></li>
                                                                                         </ul>
                                                                                 </li>
                                                                         </ul>

@@ -7,9 +7,9 @@
             <div class="breadcrumb-wrap">
                 <div class="breadcrumb-img" style="background-image: url('img/state-img.jpg');"></div>
                 <div class="breadcrumb">
-                    <a href="#">Home</a>
+                    <a href="javascript:void(0);">Home</a>
                     <i class="far fa-angle-right"></i>
-                    <a href="#">States</a>
+                    <a href="javascript:void(0);">States</a>
                     <i class="far fa-angle-right"></i>
                     <span>Maharashtra</span>
                 </div>
@@ -158,7 +158,7 @@
                                                     <span>Last Date: 30 May 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="details.php" class="btn">View Details</a>
+                                            <a href="job-details.php" class="btn">View Details</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -185,7 +185,7 @@
                                                     <span>Last Date: 30 May 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Details</a>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -212,7 +212,7 @@
                                                     <span>Last Date: 30 May 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Details</a>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -239,7 +239,7 @@
                                                     <span>Last Date: 30 May 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Details</a>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -266,7 +266,7 @@
                                                     <span>Last Date: 30 May 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Details</a>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -293,7 +293,7 @@
                                                     <span>Last Date: 30 May 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Details</a>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@
                                                     <span>Status: Merit List PDF</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Check Result</a>
+                                            <a href="result-details.php" class="btn">Check Result</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -345,7 +345,7 @@
                                                     <span>93.37% Pass Percentage</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Scorecard</a>
+                                            <a href="javascript:void(0);" class="btn">View Scorecard</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -368,7 +368,7 @@
                                                     <span>Qualified list out</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Check Status</a>
+                                            <a href="javascript:void(0);" class="btn">Check Status</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -391,7 +391,7 @@
                                                     <span>Assistant Professor Eligibility</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Check Result</a>
+                                            <a href="javascript:void(0);" class="btn">Check Result</a>
                                         </div>
                                     </div>
                                 </div>
@@ -420,7 +420,7 @@
                                                     <span>Status: Available Now</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download Hall Ticket</a>
+                                            <a href="admitcard-details.php" class="btn">Download Hall Ticket</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -443,7 +443,7 @@
                                                     <span>Status: Link Active</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download Admit Card</a>
+                                            <a href="javascript:void(0);" class="btn">Download Admit Card</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -466,7 +466,7 @@
                                                     <span>Login Required</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Get Admit Card</a>
+                                            <a href="javascript:void(0);" class="btn">Get Admit Card</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -489,7 +489,7 @@
                                                     <span>Status: Out Now</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download Here</a>
+                                            <a href="javascript:void(0);" class="btn">Download Here</a>
                                         </div>
                                     </div>
                                 </div>
@@ -518,7 +518,7 @@
                                                     <span>Objections till 22 Jun</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Answer Key</a>
+                                            <a href="answerkey-details.php" class="btn">View Answer Key</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -541,7 +541,7 @@
                                                     <span>Set A, B, C, D PDFs</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download PDF</a>
+                                            <a href="javascript:void(0);" class="btn">Download PDF</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -564,7 +564,7 @@
                                                     <span>Official Final Key</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Check Answers</a>
+                                            <a href="javascript:void(0);" class="btn">Check Answers</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -587,7 +587,7 @@
                                                     <span>OMR Sheets Available</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Key</a>
+                                            <a href="javascript:void(0);" class="btn">View Key</a>
                                         </div>
                                     </div>
                                 </div>
@@ -616,7 +616,7 @@
                                                     <span>Exam Level: Matric</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download Syllabus</a>
+                                            <a href="javascript:void(0);" class="btn">Download Syllabus</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -639,7 +639,7 @@
                                                     <span>Exam Level: Graduate</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download Syllabus</a>
+                                            <a href="javascript:void(0);" class="btn">Download Syllabus</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -662,7 +662,7 @@
                                                     <span>All Subjects</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Get Syllabus</a>
+                                            <a href="javascript:void(0);" class="btn">Get Syllabus</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -685,7 +685,7 @@
                                                     <span>Latest Syllabus</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download Syllabus</a>
+                                            <a href="javascript:void(0);" class="btn">Download Syllabus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -714,7 +714,7 @@
                                                     <span>Mode: Online Portal</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Online</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Online</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -737,7 +737,7 @@
                                                     <span>Level: Post Graduate</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Now</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Now</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -760,7 +760,7 @@
                                                     <span>Eligibility: 12th Pass</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Register Online</a>
+                                            <a href="javascript:void(0);" class="btn">Register Online</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -783,7 +783,7 @@
                                                     <span>Multiple Trades</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Register Now</a>
+                                            <a href="javascript:void(0);" class="btn">Register Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -812,7 +812,7 @@
                                                     <span>Last Date: 31 Aug 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply on MahaDBT</a>
+                                            <a href="javascript:void(0);" class="btn">Apply on MahaDBT</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -835,7 +835,7 @@
                                                     <span>Last Date: 31 Aug 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Now</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Now</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -858,7 +858,7 @@
                                                     <span>Last Date: 15 Jul 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Online</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Online</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -881,7 +881,7 @@
                                                     <span>Last Date: 31 Jul 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">View Details</a>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -891,7 +891,7 @@
                             <div class="tab-pane fade" id="questionpaper" role="tabpanel">
                                 <div class="category-grid">
                                     <div class="card">
-                                        <div class="badge">PDF Available</div>
+                                        <div class="badge">PDF</div>
                                         <div class="header">
                                             <img src="img/drdo.png" class="logo">
                                             <div>
@@ -910,11 +910,11 @@
                                                     <span>Years: 2018 - 2023</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download PYQ PDF</a>
+                                            <a href="questionpaper-details.php" class="btn">Download PYQ PDF</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge">PDF Available</div>
+                                        <div class="badge">PDF</div>
                                         <div class="header">
                                             <img src="img/navy.png" class="logo">
                                             <div>
@@ -933,11 +933,11 @@
                                                     <span>Years: 2017 - 2023</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download PDF</a>
+                                            <a href="javascript:void(0);" class="btn">Download PDF</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge">PDF Available</div>
+                                        <div class="badge">PDF</div>
                                         <div class="header">
                                             <img src="img/ssc.png" class="logo">
                                             <div>
@@ -956,11 +956,11 @@
                                                     <span>All Subjects Included</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download PDF</a>
+                                            <a href="javascript:void(0);" class="btn">Download PDF</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge">PDF Available</div>
+                                        <div class="badge">PDF</div>
                                         <div class="header">
                                             <img src="img/drdo.png" class="logo">
                                             <div>
@@ -979,7 +979,7 @@
                                                     <span>Solved Papers</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Download PDF</a>
+                                            <a href="javascript:void(0);" class="btn">Download PDF</a>
                                         </div>
                                     </div>
                                 </div>
@@ -989,7 +989,7 @@
                             <div class="tab-pane fade" id="yojana" role="tabpanel">
                                 <div class="category-grid">
                                     <div class="card">
-                                        <div class="badge bg-success">Active Scheme</div>
+                                        <div class="badge bg-success">Active</div>
                                         <div class="header">
                                             <img src="img/navy.png" class="logo">
                                             <div>
@@ -1008,11 +1008,11 @@
                                                     <span>Benefit: Rs. 1500 / Month</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Online Form</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Online Form</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge bg-success">Active Scheme</div>
+                                        <div class="badge bg-success">Active</div>
                                         <div class="header">
                                             <img src="img/drdo.png" class="logo">
                                             <div>
@@ -1031,11 +1031,11 @@
                                                     <span>Benefit: Monthly Pension</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Now</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Now</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge bg-success">Active Scheme</div>
+                                        <div class="badge bg-success">Active</div>
                                         <div class="header">
                                             <img src="img/ssc.png" class="logo">
                                             <div>
@@ -1054,11 +1054,11 @@
                                                     <span>Benefit: Rs. 1000 / Month</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Apply Here</a>
+                                            <a href="javascript:void(0);" class="btn">Apply Here</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge bg-success">Active Scheme</div>
+                                        <div class="badge bg-success">Active</div>
                                         <div class="header">
                                             <img src="img/drdo.png" class="logo">
                                             <div>
@@ -1077,7 +1077,7 @@
                                                     <span>Benefit: Free Insurance Coverage</span>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn">Check Eligibility</a>
+                                            <a href="javascript:void(0);" class="btn">Check Eligibility</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1089,4 +1089,4 @@
         </div>
     </section>
 
-<?php include_once("include/footer.php") ?>
+    <?php include_once("include/footer.php") ?>

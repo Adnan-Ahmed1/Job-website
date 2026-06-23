@@ -381,6 +381,12 @@
                                 <li>
                                     <a href="javascript:void(0);">
                                         <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Admission</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
                                         <h6>MPSC Question Papers</h6>
                                     </a>
                                 </li>

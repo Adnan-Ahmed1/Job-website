@@ -3046,14 +3046,20 @@ a {
     padding: 20px 20px 0;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     gap: 10px;
     list-style: none;
     margin-bottom: 20px;
     position: sticky;
     top: 0;
     z-index: 999;
+}
+
+.details-tabs .tab-nav li {
+    flex-shrink: 0;
 }
 
 .details-tabs .tab-nav li a {
@@ -3072,8 +3078,8 @@ a {
 }
 
 .details-tabs .tab-nav li a:hover {
-    background: #f3f4f6;
-    color: #000;
+    color: var(--primary);
+    background: #f8fafc;
 }
 
 .details-tabs .tab-nav li a.active {
@@ -3085,52 +3091,24 @@ a {
     font-size: 18px;
 }
 
-/* Sticky Override Styles */
 .details-tabs .tab-nav.is-sticky {
-    background: #ffffff;
-    border-radius: 12px;
     padding: 0 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
     gap: 4px;
     border: 1px solid #e2e8f0;
 }
 
-.details-tabs .tab-nav.is-sticky::-webkit-scrollbar {
-    display: none;
-}
-
-.details-tabs .tab-nav.is-sticky li {
-    flex-shrink: 0;
-}
-
 .details-tabs .tab-nav.is-sticky li a {
-    color: #64748b;
-    font-size: 14px;
     font-weight: 500;
     flex-direction: row;
-    gap: 8px;
     padding: 14px 16px;
     border-radius: 8px;
-    border-bottom: 3px solid transparent;
     white-space: nowrap;
-    background: transparent;
-}
-
-.details-tabs .tab-nav.is-sticky li a:hover {
-    color: var(--primary);
-    background: #f8fafc;
 }
 
 .details-tabs .tab-nav.is-sticky li a.active {
-    color: var(--primary);
     font-weight: 600;
-    border-bottom: 3px solid var(--primary);
-    background: transparent;
     border-radius: 0;
 }
 
@@ -3139,7 +3117,6 @@ a {
 }
 
 .details-tabs .tab-content section {
-
     background: #fff;
     border-radius: 14px;
     padding: 20px;
@@ -3400,6 +3377,11 @@ a {
     background: rgba(168, 85, 247, .3);
 }
 
+.details-tabs .tab-content section .timeline .timeline-item:nth-child(9) .icon-wrapper,
+.details-tabs .tab-content section .timeline .timeline-item:nth-child(9) .icon-wrapper::before {
+    background: rgba(220, 53, 69, .3);
+}
+
 .details-tabs .tab-content section .timeline .timeline-item:last-child .icon-wrapper,
 .details-tabs .tab-content section .timeline .timeline-item:last-child .icon-wrapper::before {
     background: rgba(6, 182, 212, .3);
@@ -3423,6 +3405,11 @@ a {
 .details-tabs .tab-content section .timeline .timeline-item:nth-child(7) .icon-wrapper .icon,
 .details-tabs .tab-content section .timeline .timeline-item:nth-child(7) .icon-wrapper::after {
     background: var(--purple);
+}
+
+.details-tabs .tab-content section .timeline .timeline-item:nth-child(9) .icon-wrapper .icon,
+.details-tabs .tab-content section .timeline .timeline-item:nth-child(9) .icon-wrapper::after {
+    background: var(--red);
 }
 
 .details-tabs .tab-content section .timeline .timeline-item:last-child .icon-wrapper .icon,
@@ -3990,34 +3977,34 @@ a {
     margin-bottom: 20px;
 }
 
-.details-tabs .tab-content .instructions-card section .instruction-list,
-.details-tabs .tab-content .instructions-card section .prohibited-list {
+.details-tabs .tab-content section .instruction-list,
+.details-tabs .tab-content section .prohibited-list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.details-tabs .tab-content .instructions-card section .instruction-list li,
-.details-tabs .tab-content .instructions-card section .prohibited-list li {
+.details-tabs .tab-content section .instruction-list li,
+.details-tabs .tab-content section .prohibited-list li {
     display: flex;
     align-items: flex-start;
     gap: 12px;
     color: #555;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.details-tabs .tab-content .instructions-card section .instruction-list li:last-child,
-.details-tabs .tab-content .instructions-card section .prohibited-list li:last-child {
+.details-tabs .tab-content section .instruction-list li:last-child,
+.details-tabs .tab-content section .prohibited-list li:last-child {
     margin-bottom: 0;
 }
 
-.details-tabs .tab-content .instructions-card section .instruction-list i {
+.details-tabs .tab-content section .instruction-list i {
     color: var(--primary);
     font-size: 18px;
     flex-shrink: 0;
 }
 
-.details-tabs .tab-content .instructions-card section .prohibited-list i {
+.details-tabs .tab-content section .prohibited-list i {
     color: var(--red);
     font-size: 18px;
     flex-shrink: 0;
@@ -4174,6 +4161,237 @@ a {
     margin:0;
     font-weight:700;
     color:var(--primary);
+}
+
+.details-tabs .tab-content section .syllabus-accordion{
+    margin-top: 20px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item{
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:last-child{
+    margin-bottom: 0;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button{
+    background:#fff;
+    box-shadow:none;
+    padding:12px 18px;
+    display:flex;
+    align-items:center;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button::after {
+    display: none;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button .accordion-arrow{
+    transition:.3s ease;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button:not(.collapsed) .accordion-arrow{
+    transform:rotate(180deg);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button .syllabus-title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button .syllabus-title span{
+    font-size:18px;
+    font-weight:600;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button .syllabus-icon{
+    width:28px;
+    height:28px;
+    border-radius:6px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    flex-shrink:0;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:first-child .accordion-button .syllabus-icon{
+    background:var(--primary);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:nth-child(2) .accordion-button .syllabus-icon{
+    background:var(--blue);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:last-child .accordion-button .syllabus-icon{
+    background:var(--purple);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button .syllabus-meta{
+    margin-left:auto;
+    margin-right:20px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-button .syllabus-meta .subject-count{
+    font-size:12px;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:10px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:first-child .accordion-button .syllabus-meta .subject-count{
+    background:var(--bg-light-green);
+    color: var(--primary);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:nth-child(2) .accordion-button .syllabus-meta .subject-count{
+    background:var(--bg-light-blue);
+    color: var(--blue);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item:last-child .accordion-button .syllabus-meta .subject-count{
+    background:var(--bg-light-purple);
+    color: var(--purple);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body{
+    padding:0 15px 15px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card{
+    border:1px solid #cbd5e1;
+    border-radius:4px;
+    padding:12px;
+    background:#fff;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card h6{
+    font-weight: 600;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:first-child h6{
+    color: var(--primary);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:nth-child(2) h6{
+    color: var(--blue);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:nth-child(3) h6{
+    color: var(--purple);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:nth-child(4) h6{
+    color: var(--yellow);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:nth-child(5) h6{
+    color: var(--red);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:nth-child(6) h6{
+    color: var(--teal);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:nth-child(7) h6{
+    color: var(--brown);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card:last-child h6{
+    color: var(--orange);
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card ul{
+    margin:0;
+    padding-left:16px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card ul li{
+    font-size:14px;
+    line-height:1.45;
+    margin-bottom:2px;
+}
+
+.details-tabs .tab-content section .syllabus-accordion .accordion-item .accordion-body .subject-grid .subject-card ul li:last-child {
+    margin-bottom: 0;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .pdf-left{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .pdf-left .pdf-icon{
+    width:56px;
+    height:56px;
+    border-radius:12px;
+    background:var(--bg-light-green);
+    font-size:34px;
+    color:var(--primary);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .pdf-content h5{
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 4px;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .pdf-content p{
+    font-size:16px;
+    font-weight:500;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .pdf-content span{
+    font-size:14px;
+    color:#555;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .pdf-content em{
+    margin:0 10px;
+    font-style:normal;
+    color:#555;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .download-pdf-btn{
+    padding: 10px 30px;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--primary);
+    background: #fff;
+    transition: .25s ease;
+}
+
+.details-tabs .tab-content section .syllabus-pdf-card .download-pdf-btn:hover{
+    background:var(--primary);
+    color:#fff;
 }
 
 .detail-sidebar-sticky {

@@ -616,7 +616,7 @@
                                                     <span>Exam Level: Matric</span>
                                                 </div>
                                             </div>
-                                            <a href="javascript:void(0);" class="btn">Download Syllabus</a>
+                                            <a href="syllabus-details.php" class="btn">Download Syllabus</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -695,7 +695,7 @@
                             <div class="tab-pane fade" id="admission" role="tabpanel">
                                 <div class="category-grid">
                                     <div class="card">
-                                        <div class="badge bg-danger text-white">Apply Online</div>
+                                        <div class="badge bg-danger text-white">Apply</div>
                                         <div class="header">
                                             <img src="img/ssc.png" class="logo">
                                             <div>
@@ -714,11 +714,11 @@
                                                     <span>Mode: Online Portal</span>
                                                 </div>
                                             </div>
-                                            <a href="javascript:void(0);" class="btn">Apply Online</a>
+                                            <a href="admission-details.php" class="btn">Apply Online</a>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge bg-danger text-white">Apply Online</div>
+                                        <div class="badge bg-danger text-white">Apply</div>
                                         <div class="header">
                                             <img src="img/drdo.png" class="logo">
                                             <div>
@@ -741,7 +741,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge bg-danger text-white">Apply Online</div>
+                                        <div class="badge bg-danger text-white">Apply</div>
                                         <div class="header">
                                             <img src="img/navy.png" class="logo">
                                             <div>
@@ -764,7 +764,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="badge bg-danger text-white">Apply Online</div>
+                                        <div class="badge bg-danger text-white">Apply</div>
                                         <div class="header">
                                             <img src="img/ssc.png" class="logo">
                                             <div>
@@ -812,7 +812,7 @@
                                                     <span>Last Date: 31 Aug 2026</span>
                                                 </div>
                                             </div>
-                                            <a href="javascript:void(0);" class="btn">Apply on MahaDBT</a>
+                                            <a href="scholarship-details.php" class="btn">Apply on MahaDBT</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -1008,7 +1008,7 @@
                                                     <span>Benefit: Rs. 1500 / Month</span>
                                                 </div>
                                             </div>
-                                            <a href="javascript:void(0);" class="btn">Apply Online Form</a>
+                                            <a href="yojana-details.php" class="btn">Apply Online Form</a>
                                         </div>
                                     </div>
                                     <div class="card">

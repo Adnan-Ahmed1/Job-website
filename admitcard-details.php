@@ -523,6 +523,12 @@
                                 <li>
                                     <a href="javascript:void(0);">
                                         <i class="far fa-info-circle"></i>
+                                        <h6>MPSC Admission</h6>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <i class="far fa-info-circle"></i>
                                         <h6>MPSC Question Papers</h6>
                                     </a>
                                 </li>
@@ -537,7 +543,7 @@
                         </section>
                         <div class="details-sidebar">
                             <div class="card-header">
-                                <h3>Other Admit Card</h3>
+                                <h3>Latest Notice</h3>
                                 <a href="javascript:void(0);" class="view-all">
                                     View All
                                     <i class="far fa-arrow-right"></i>

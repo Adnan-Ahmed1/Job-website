@@ -11,9 +11,9 @@
                 <i class="far fa-angle-right"></i>
                 <a href="javascript:void(0);">Maharashtra</a>
                 <i class="far fa-angle-right"></i>
-                <a href="javascript:void(0);">Results</a>
+                <a href="javascript:void(0);">Admission</a>
                 <i class="far fa-angle-right"></i>
-                <span>MPSC State Service Combine Group B & C 2024</span>
+                <span>Delhi University UG Admission 2024</span>
             </div>
         </div>
     </section>
@@ -30,29 +30,36 @@
                             <div class="details-job-content">
                                 <div class="top-row">
                                     <h2 class="title">
-                                        MPSC State Service Combine Group B & C 2024
+                                        Delhi University UG Admission 2024
                                     </h2>
                                     <span class="badge">New</span>
                                 </div>
                                 <p class="subtitle">
-                                    Maharashtra Public Service Commission (MPSC)
+                                    University of Delhi (DU)
                                 </p>
                             </div>
                             <div class="details-job-actions">
                                 <div class="meta">
                                     <div class="meta-item">
-                                        <i class="far fa-calendar"></i>
-                                        <span>Declared Date: 30 May 2026</span>
+                                        <i class="far fa-graduation-cap"></i>
+                                        <span>Admission Level: Undergraduate</span>
                                     </div>
-
                                     <div class="meta-item">
-                                        <i class="far fa-file-alt"></i>
-                                        <span>Result Type: Final Result</span>
+                                        <i class="far fa-clock"></i>
+                                        <span>Session: 2024-25</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="far fa-globe"></i>
+                                        <span>Mode: Online Portal</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="far fa-map-marker-alt"></i>
+                                        <span>Location: Delhi</span>
                                     </div>
                                 </div>
                                 <div class="action">
                                     <a href="javascript:void(0);" class="btn apply">
-                                        Official Website <i class="far fa-external-link-alt"></i>
+                                        Apply Online <i class="far fa-external-link-alt"></i>
                                     </a>
 
                                     <a href="javascript:void(0);" class="btn share">
@@ -65,16 +72,19 @@
                     <div class="details-tabs">
                         <ul class="tab-nav">
                             <li><a href="#overview" class="active"><i class="far fa-clipboard-list"></i>Overview</a></li>
-                            <li><a href="#links"><i class="far fa-link"></i>Important Links</a></li>
                             <li><a href="#important-dates"><i class="far fa-calendar-alt"></i>Important Dates</a></li>
-                            <li><a href="#cut-off"><i class="far fa-chart-line"></i>Cut Off</a></li>
-                            <li><a href="#check"><i class="far fa-search"></i>How to Check</a></li>
+                            <li><a href="#eligibility"><i class="far fa-user-check"></i>Eligibility</a></li>
+                            <li><a href="#documents"><i class="far fa-file-lines"></i>Documents Required</a></li>
+                            <li><a href="#seat-matrix"><i class="far fa-chart-pie"></i>Seat Matrix</a></li>
+                            <li><a href="#fee-structure"><i class="far fa-money-bill-wave"></i>Fee Structure</a></li>
+                            <li><a href="#links"><i class="far fa-link"></i>Important Links</a></li>
+                            <li><a href="#admission-process"><i class="far fa-search"></i>Admission Process</a></li>
                         </ul>
                         <div class="tab-content">
                             <section id="overview">
                                 <h3>Overview</h3>
                                 <p>
-                                    Maharashtra Public Service Commission (MPSC) has released the notification for State Service Combine Group B & C Examination 2024.
+                                    University of Delhi has released the notification for UG Admission 2024.
                                     Eligible candidates can apply online before the last date.
                                 </p>
                                 <div class="highlights">
@@ -83,58 +93,321 @@
                                         <div class="row-item">
                                             <span class="label"><i class="far fa-landmark"></i> Conducting Body</span>
                                             <span class="colon">:</span>
-                                            <span class="value">Maharashtra Public Service Commission (MPSC)</span>
+                                            <span class="value">University of Delhi</span>
                                         </div>
                                         <div class="row-item">
-                                            <span class="label"><i class="far fa-file-signature"></i> Exam Name</span>
+                                            <span class="label"><i class="far fa-graduation-cap"></i> Admission Level</span>
                                             <span class="colon">:</span>
-                                            <span class="value">State Service Combine Group B & C</span>
+                                            <span class="value">Undergraduate</span>
                                         </div>
                                         <div class="row-item">
-                                            <span class="label"><i class="far fa-layer-group"></i> Total Posts</span>
+                                            <span class="label"><i class="far fa-clock"></i> Session</span>
                                             <span class="colon">:</span>
-                                            <span class="value">1250</span>
+                                            <span class="value">2024-25</span>
                                         </div>
                                         <div class="row-item">
-                                            <span class="label"><i class="far fa-calendar"></i> Result Date</span>
+                                            <span class="label">
+                                                <i class="far fa-globe"></i> Mode
+                                            </span>
                                             <span class="colon">:</span>
-                                            <span class="value">30 May 2026</span>
+                                            <span class="value">Online Portal</span>
                                         </div>
                                         <div class="row-item">
-                                            <span class="label"><i class="far fa-file-alt"></i> Result Type</span>
+                                            <span class="label">
+                                                <i class="far fa-map-marker-alt"></i> Location
+                                            </span>
                                             <span class="colon">:</span>
-                                            <span class="value">Final Result</span>
+                                            <span class="value">Delhi</span>
+                                        </div>
+                                        <div class="row-item">
+                                            <span class="label">
+                                                <i class="far fa-calendar-alt"></i> Application Open
+                                            </span>
+                                            <span class="colon">:</span>
+                                            <span class="value">20 May 2024</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="stats-row">
                                     <div class="stats-card">
                                         <div class="stats-icon">
+                                            <i class="far fa-layer-group"></i>
+                                        </div>
+                                        <div class="stats-content">
+                                            <h6>Total Courses</h6>
+                                            <h4>67+</h4>
+                                        </div>
+                                    </div>
+                                    <div class="stats-card">
+                                        <div class="stats-icon">
                                             <i class="far fa-user-graduate"></i>
                                         </div>
                                         <div class="stats-content">
-                                            <h6>Total Candidates</h6>
-                                            <h4>1,24,850</h4>
+                                            <h6>Total Seats</h6>
+                                            <h4>70,000+</h4>
                                         </div>
                                     </div>
                                     <div class="stats-card">
                                         <div class="stats-icon">
-                                            <i class="far fa-check-circle"></i>
+                                            <i class="far fa-money-bill-wave"></i>
                                         </div>
                                         <div class="stats-content">
-                                            <h6>Candidates Qualified</h6>
-                                            <h4>8,742</h4>
+                                            <h6>Application Fee</h6>
+                                            <h4>INR 2500</h4>
                                         </div>
                                     </div>
                                     <div class="stats-card">
                                         <div class="stats-icon">
-                                            <i class="far fa-chart-line"></i>
+                                            <i class="far fa-calendar-alt"></i>
                                         </div>
                                         <div class="stats-content">
-                                            <h6>Qualified Percentage</h6>
-                                            <h4>7.00%</h4>
+                                            <h6>Duration</h6>
+                                            <h4>3 Year</h4>
                                         </div>
                                     </div>
+                                </div>
+                            </section>
+                            <section id="important-dates">
+                                <h3>Important Dates</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon">
+                                                <i class="far fa-calendar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            Notification <br> Released
+                                        </div>
+                                        <div class="date">
+                                            10 May 2026
+                                        </div>
+                                    </div>
+                                    <div class="dot"></div>
+                                    <div class="timeline-item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon">
+                                                <i class="far fa-calendar-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            Application <br> Start Date
+                                        </div>
+                                        <div class="date">
+                                            27 May 2026
+                                        </div>
+                                    </div>
+                                    <div class="dot"></div>
+                                    <div class="timeline-item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon">
+                                                <i class="far fa-clock"></i>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            Application <br> End Date
+                                        </div>
+                                        <div class="date">
+                                            10 June 2026
+                                        </div>
+                                    </div>
+                                    <div class="dot"></div>
+                                    <div class="timeline-item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon">
+                                                <i class="far fa-file"></i>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            Merit List <br> Date
+                                        </div>
+                                        <div class="date">
+                                            20 July 2026
+                                        </div>
+                                    </div>
+                                    <div class="dot"></div>
+                                    <div class="timeline-item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon">
+                                                <i class="far fa-address-book"></i>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            Counselling <br> Date
+                                        </div>
+                                        <div class="date">
+                                            15 May 2026
+                                        </div>
+                                    </div>
+                                    <div class="dot"></div>
+                                    <div class="timeline-item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon">
+                                                <i class="far fa-file-certificate"></i>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            Admission <br> Complete
+                                        </div>
+                                        <div class="date">
+                                            15 May 2026
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="eligibility">
+                                <h3>Eligibility Criteria</h3>
+                                <div class="criteria-row">
+                                    <div class="left-section">
+                                        <i class="far fa-graduation-cap"></i>
+                                        <span class="label">
+                                            Qualification
+                                        </span>
+                                    </div>
+                                    <div class="right-section">
+                                        Candidates must have passed 10+2 or an equivalent examination.
+                                    </div>
+                                </div>
+                                <div class="criteria-row">
+                                    <div class="left-section">
+                                        <i class="far fa-percent"></i>
+                                        <span class="label">
+                                            Minimum Marks
+                                        </span>
+                                    </div>
+                                    <div class="right-section">
+                                        Minimum marks required: 45% for General category, 40% for OBC/EWS category, and 35% for SC/ST category.
+                                    </div>
+                                </div>
+                                <div class="criteria-row">
+                                    <div class="left-section">
+                                        <i class="far fa-language"></i>
+                                        <span class="label">
+                                            Language Requirement
+                                        </span>
+                                    </div>
+                                    <div class="right-section">
+                                        English must be one of the subjects in the qualifying examination.
+                                    </div>
+                                </div>
+                                <div class="criteria-row">
+                                    <div class="left-section">
+                                        <i class="far fa-user-clock"></i>
+                                        <span class="label">
+                                            Age Limit
+                                        </span>
+                                    </div>
+                                    <div class="right-section">
+                                        No age limit is prescribed for this examination.
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="documents">
+                                <h3>Documents Required</h3>
+                                <ul class="instruction-list">
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Class 10 Marksheet
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Class 12 Marksheet / Passing Certificate
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Aadhaar Card
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Passport Size Photograph
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Signature
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Category Certificate (If Applicable)
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Income Certificate (If Applicable)
+                                    </li>
+                                    <li>
+                                        <i class="far fa-check-circle"></i> Migration Certificate (If Applicable)
+                                    </li>
+                                </ul>
+                            </section>
+                            <section id="seat-matrix">
+                                <h3>Seat Matrix (Category Wise)</h3>
+                                <div class="table-wrapper">
+                                    <table class="vacancy-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Category</th>
+                                                <th>Seats</th>
+                                                <th>Percentage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>General</td>
+                                                <td>5000</td>
+                                                <td>41.67%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>OBC</td>
+                                                <td>3000</td>
+                                                <td>25.00%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SC</td>
+                                                <td>2000</td>
+                                                <td>16.67%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ST</td>
+                                                <td>1000</td>
+                                                <td>8.33%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>EWS</td>
+                                                <td>1000</td>
+                                                <td>8.33%</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td>Total</td>
+                                                <td>12000+</td>
+                                                <td>100%</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </section>
+                            <section id="fee-structure">
+                                <h3>Fee Structure (Per Year)</h3>
+                                <div class="table-wrapper">
+                                    <table class="vacancy-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Category</th>
+                                                <th>Fee (Approx.)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>General / OBC / EWS</td>
+                                                <td>₹500/-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SC / ST / PwD</td>
+                                                <td>₹250/-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PwD</td>
+                                                <td>₹250/-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="main-note-box">
+                                    <i class="far fa-circle-info"></i>
+                                    <strong>Note:</strong> Fees may vary for different courses. Please check official prospectus.
                                 </div>
                             </section>
                             <section id="links">
@@ -149,233 +422,101 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Result PDF</td>
-                                                <td><a href="javascript:void(0);">Check Now <i class="far fa-external-link-alt"></i></a></td>
+                                                <td>Apply Online</td>
+                                                <td><a href="javascript:void(0);">Apply Now <i class="far fa-external-link-alt"></i></a></td>
                                             </tr>
                                             <tr>
-                                                <td>Merit List PDF</td>
+                                                <td>Information Bulletin / Prospectus</td>
                                                 <td><a href="javascript:void(0);"><i class="far fa-download"></i> Download</a></td>
                                             </tr>
                                             <tr>
-                                                <td>Category Wise Cut-Off PDF</td>
+                                                <td>Admission Notificaiton</td>
                                                 <td><a href="javascript:void(0);"><i class="far fa-download"></i> Download</a></td>
                                             </tr>
                                             <tr>
-                                                <td>Score Card PDF</td>
-                                                <td><a href="javascript:void(0);">Check Now <i class="far fa-external-link-alt"></i></a></td>
+                                                <td>Official Website</td>
+                                                <td><a href="javascript:void(0);">Visit Website <i class="far fa-external-link-alt"></i></a></td>
                                             </tr>
                                             <tr>
-                                                <td>Official Notificaiton</td>
+                                                <td>Fee Structure</td>
                                                 <td><a href="javascript:void(0);"><i class="far fa-download"></i> Download</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </section>
-                            <section id="important-dates">
-                                <h3>Important Dates</h3>
-                                <div class="timeline">
-                                    <div class="timeline-item">
-                                        <div class="icon-wrapper">
-                                            <div class="icon">
-                                                <i class="far fa-calendar-check"></i>
-                                            </div>
-                                        </div>
-                                        <div class="title">
-                                            Notification <br> Release
-                                        </div>
-                                        <div class="date">
-                                            10 May 2026
-                                        </div>
-                                    </div>
-                                    <div class="dot"></div>
-                                    <div class="timeline-item">
-                                        <div class="icon-wrapper">
-                                            <div class="icon">
-                                                <i class="far fa-file-signature"></i>
-                                            </div>
-                                        </div>
-                                        <div class="title">
-                                            Online Application <br> Start
-                                        </div>
-                                        <div class="date">
-                                            12 May 2026
-                                        </div>
-                                    </div>
-                                    <div class="dot"></div>
-                                    <div class="timeline-item">
-                                        <div class="icon-wrapper">
-                                            <div class="icon">
-                                                <i class="far fa-calendar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="title">
-                                            Last Date to <br> Apply
-                                        </div>
-                                        <div class="date">
-                                            30 May 2026
-                                        </div>
-                                    </div>
-                                    <div class="dot"></div>
-                                    <div class="timeline-item">
-                                        <div class="icon-wrapper">
-                                            <div class="icon">
-                                                <i class="far fa-book-open"></i>
-                                            </div>
-                                        </div>
-                                        <div class="title">
-                                            Main Exam <br> Date
-                                        </div>
-                                        <div class="date">
-                                            20 July 2026
-                                        </div>
-                                    </div>
-                                    <div class="dot"></div>
-                                    <div class="timeline-item">
-                                        <div class="icon-wrapper">
-                                            <div class="icon">
-                                                <i class="far fa-id-card"></i>
-                                            </div>
-                                        </div>
-                                        <div class="title">
-                                            Result <br> Declared
-                                        </div>
-                                        <div class="date">
-                                            15 Sept 2026
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section id="cut-off">
-                                <h3>Category Wise Cut-Off (Mains Exam)</h3>
-                                <div class="table-wrapper">
-                                    <table class="vacancy-table">
-                                        <thead>
-                                            <tr>
-                                                <th>Category</th>
-                                                <th>Paper I Cut-Off <br> (Out of 150)</th>
-                                                <th>Paper II Cut-Off <br> (Out of 150)</th>
-                                                <th>Total Cut-Off <br> (Out of 300)</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>General</td>
-                                                <td>138.50</td>
-                                                <td>130.50</td>
-                                                <td>269.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>EWS</td>
-                                                <td>110.00</td>
-                                                <td>100.00</td>
-                                                <td>213.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>OBC</td>
-                                                <td>120.00</td>
-                                                <td>110.00</td>
-                                                <td>232.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>SC</td>
-                                                <td>100.00</td>
-                                                <td>90.00</td>
-                                                <td>195.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ST</td>
-                                                <td>85.00</td>
-                                                <td>80.00</td>
-                                                <td>162.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>PWD (VH)</td>
-                                                <td>95.00</td>
-                                                <td>90.00</td>
-                                                <td>185.00</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="main-note-box">
-                                    <i class="far fa-circle-info"></i>
-                                    <strong>Note:</strong>
-                                    Cut-off marks are the minimum qualifying marks. More qualifying does not guarantee final selection.
-                                </div>
-                            </section>
-                            <section id="check">
-                                <h3>How to Check/Download Result</h3>
+                            <section id="admission-process">
+                                <h3>Admission Process</h3>
                                 <div class="apply-wrapper">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="apply-timeline">
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="far fa-globe"></i>
+                                                        <i class="far fa-user-plus"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">01</div>
                                                         <div class="step-content">
-                                                            <h4>Visit Official Website</h4>
+                                                            <h4>Register Online</h4>
                                                             <p>
-                                                                Visit the official website of MPSC.
+                                                                Create an account on the official portal.
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="far fa-search"></i>
+                                                        <i class="far fa-pen-to-square"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">02</div>
                                                         <div class="step-content">
-                                                            <h4>Go to Results Section</h4>
+                                                            <h4>Fill Form & Upload Documents</h4>
                                                             <p>
-                                                                Click on "Results" section on the homepage.
+                                                                Carefully fill in your personal and academic details, then upload the required documents in the specified format.
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="far fa-link"></i>
+                                                        <i class="far fa-credit-card"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">03</div>
                                                         <div class="step-content">
-                                                            <h4>Click on Result Link</h4>
+                                                            <h4>Pay Fee & Submit</h4>
                                                             <p>
-                                                                Find the link "State Service Combine Group B & C 2024".
+                                                                Pay the application fee online, review the details, and submit your application form.
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="far fa-file-pdf"></i>
+                                                        <i class="far fa-list-ol"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">04</div>
                                                         <div class="step-content">
-                                                            <h4>Open the PDF File</h4>
+                                                            <h4>Check Merit List & Counselling</h4>
                                                             <p>
-                                                                Click on the link and a PDF will open.
+                                                                Check the published merit list on the official website and attend the online counselling as per your scheduled time.
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="step-item">
                                                     <div class="step-icon">
-                                                        <i class="far fa-search-location"></i>
+                                                        <i class="far fa-circle-check"></i>
                                                     </div>
                                                     <div class="step-header">
                                                         <div class="step-number">05</div>
                                                         <div class="step-content">
-                                                            <h4>Check Roll Number</h4>
+                                                            <h4>Final Admission</h4>
                                                             <p>
-                                                                Search your Roll Number / Name in the PDF.
+                                                                Get your documents verified to complete the final admission process.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -389,7 +530,7 @@
                                                         <i class="fas fa-play"></i>
                                                     </div>
                                                     <div class="video-content">
-                                                        <h4>Watch Video: How to Check / Download Result</h4>
+                                                        <h4>Watch Video: How to Apply Online</h4>
                                                         <p>
                                                             Learn the complete application process step-by-step.
                                                         </p>
@@ -418,9 +559,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="main-note-box">
-                                        <i class="far fa-info-circle"></i><strong>Note:</strong>Please keep a printout of the final submitted application form for your records.
-                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -444,7 +582,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);" class="active">
+                                    <a href="javascript:void(0);">
                                         <i class="far fa-info-circle"></i>
                                         <h6>MPSC Result</h6>
                                     </a>
@@ -462,7 +600,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">
+                                    <a href="javascript:void(0);" class="active">
                                         <i class="far fa-info-circle"></i>
                                         <h6>MPSC Admission</h6>
                                     </a>
@@ -495,10 +633,13 @@
                                     <img src="img/drdo.png" alt="logo" class="similar-job-logo">
                                     <h3>MPSC Assistant Section Officer 2024</h3>
                                 </div>
-
+                                <div class="similar-job-meta">
+                                    <i class="far fa-id-card"></i>
+                                    <span>Admit Card: Released</span>
+                                </div>
                                 <div class="similar-job-meta">
                                     <i class="far fa-calendar"></i>
-                                    <span>Declared: 25 May 2026</span>
+                                    <span>Exam Date: 25 May 2026</span>
                                 </div>
                             </a>
                             <a href="javascript:void(0);" class="similar-job-card">
@@ -506,10 +647,13 @@
                                     <img src="img/navy.png" alt="logo" class="similar-job-logo">
                                     <h3>MPSC Tax Assistant 2024</h3>
                                 </div>
-
+                                <div class="similar-job-meta">
+                                    <i class="far fa-id-card"></i>
+                                    <span>Admit Card: Released</span>
+                                </div>
                                 <div class="similar-job-meta">
                                     <i class="far fa-calendar"></i>
-                                    <span>Declared: 15 June 2026</span>
+                                    <span>Exam Date: 15 June 2026</span>
                                 </div>
                             </a>
                             <a href="javascript:void(0);" class="similar-job-card">
@@ -517,10 +661,13 @@
                                     <img src="img/ssc.png" alt="logo" class="similar-job-logo">
                                     <h3>MPSC Clerk Typist 2024</h3>
                                 </div>
-
+                                <div class="similar-job-meta">
+                                    <i class="far fa-id-card"></i>
+                                    <span>Admit Card: Released</span>
+                                </div>
                                 <div class="similar-job-meta">
                                     <i class="far fa-calendar"></i>
-                                    <span>Declared: 25 June 2026</span>
+                                    <span>Exam Date: 25 June 2026</span>
                                 </div>
                             </a>
                         </div>

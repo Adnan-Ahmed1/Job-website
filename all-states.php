@@ -19,8 +19,11 @@
                     <button class="category-btn" id="admitcard-tab" data-bs-toggle="tab" data-bs-target="#admitcard" type="button" role="tab" aria-controls="admitcard" aria-selected="false" data-type="admitcard">
                         <i class="fas fa-id-card"></i> Admit Card
                     </button>
+                    <button class="category-btn" id="answerkey-tab" data-bs-toggle="tab" data-bs-target="#answerkey" type="button" role="tab" aria-controls="answerkey" aria-selected="false" data-type="answerkey">
+                        <i class="fas fa-key"></i> Answer Key
+                    </button>
                     <button class="category-btn" id="syllabus-tab" data-bs-toggle="tab" data-bs-target="#syllabus" type="button" role="tab" aria-controls="syllabus" aria-selected="false" data-type="syllabus">
-                        <i class="fas fa-book-open"></i> Syllabus
+                        <i class="fas fa-book"></i> Syllabus
                     </button>
                     <button class="category-btn" id="admission-tab" data-bs-toggle="tab" data-bs-target="#admission" type="button" role="tab" aria-controls="admission" aria-selected="false" data-type="admission">
                         <i class="fas fa-graduation-cap"></i> Admission
@@ -28,8 +31,14 @@
                     <button class="category-btn" id="scholarship-tab" data-bs-toggle="tab" data-bs-target="#scholarship" type="button" role="tab" aria-controls="scholarship" aria-selected="false" data-type="scholarship">
                         <i class="fas fa-medal"></i> Scholarship
                     </button>
+                    <button class="category-btn" id="questionpaper-tab" data-bs-toggle="tab" data-bs-target="#questionpaper" type="button" role="tab" aria-controls="questionpaper" aria-selected="false" data-type="questionpaper">
+                        <i class="fas fa-file-lines"></i> Question Paper
+                    </button>
                     <button class="category-btn" id="yojana-tab" data-bs-toggle="tab" data-bs-target="#yojana" type="button" role="tab" aria-controls="yojana" aria-selected="false" data-type="yojana">
-                        <i class="fas fa-hand-holding-heart"></i> Yojana
+                        <i class="fas fa-hands-holding-heart"></i> Yojana
+                    </button>
+                    <button class="category-btn" id="document-tab" data-bs-toggle="tab" data-bs-target="#document" type="button" role="tab" aria-controls="document" aria-selected="false" data-type="document">
+                        <i class="fas fa-file"></i> Document
                     </button>
                 </div>
             </div>
@@ -469,6 +478,103 @@
                     </div>
                 </div>
 
+                <!-- Answer Key Tab Pane -->
+                <div class="tab-pane fade" id="answerkey" role="tabpanel" aria-labelledby="answerkey-tab">
+                    <div class="row g-4">
+                        <div class="col-12 text-primary">
+                            <h4 class="sub-header">State Government Answer Keys</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-landmark"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        520 Answer Keys
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        UP
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-archway"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        410 Answer Keys
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        Rajasthan
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-success mt-4">
+                            <h4 class="sub-header">Central Government Answer Keys</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-clipboard-list"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        Available
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        SSC GD
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-train"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        Available
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        RRB NTPC
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Syllabus Tab Pane -->
                 <div class="tab-pane fade" id="syllabus" role="tabpanel" aria-labelledby="syllabus-tab">
                     <div class="row g-4">
@@ -760,6 +866,103 @@
                     </div>
                 </div>
 
+                <!-- Question Paper Tab Pane -->
+                <div class="tab-pane fade" id="questionpaper" role="tabpanel" aria-labelledby="questionpaper-tab">
+                    <div class="row g-4">
+                        <div class="col-12 text-primary">
+                            <h4 class="sub-header">State Government Question Papers</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-award"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        80 Question Papers
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        UP
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-medal"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        50 Question Papers
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        Bihar
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-success mt-4">
+                            <h4 class="sub-header">Central Government Question Papers</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-trophy"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        120 Question Papers
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        NSP
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-award"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        45 Question Papers
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        UGC
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Yojana Tab Pane -->
                 <div class="tab-pane fade" id="yojana" role="tabpanel" aria-labelledby="yojana-tab">
                     <div class="row g-4">
@@ -811,6 +1014,103 @@
 
                         <div class="col-12 text-success mt-4">
                             <h4 class="sub-header">Central Government Schemes</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-tractor"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        Active
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        PM Kisan
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        Active
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        PMAY
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document Tab Pane -->
+                <div class="tab-pane fade" id="document" role="tabpanel" aria-labelledby="document-tab">
+                    <div class="row g-4">
+                        <div class="col-12 text-primary">
+                            <h4 class="sub-header">State Government Document</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        45 Document
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        Gujarat
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="state-card">
+                                <div class="state-top">
+                                    <div class="state-icon">
+                                        <i class="fas fa-landmark"></i>
+                                    </div>
+                                    <div class="job-count">
+                                        70 Document
+                                    </div>
+                                </div>
+                                <div class="state-bottom">
+                                    <div class="state-name">
+                                        MP
+                                    </div>
+                                    <a href="javascript:void(0);" class="view-jobs">
+                                        View Details
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-success mt-4">
+                            <h4 class="sub-header">Central Government Document</h4>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="state-card">

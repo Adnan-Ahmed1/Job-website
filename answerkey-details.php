@@ -260,23 +260,23 @@
                                         <tbody>
                                             <tr>
                                                 <td>General Studies</td>
-                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 c-red"></i>Download</a></td>
+                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 red"></i>Download</a></td>
                                             </tr>
                                             <tr>
                                                 <td>General Ability</td>
-                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 c-red"></i>Download</a></td>
+                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 red"></i>Download</a></td>
                                             </tr>
                                             <tr>
                                                 <td>English Language</td>
-                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 c-red"></i>Download</a></td>
+                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 red"></i>Download</a></td>
                                             </tr>
                                             <tr>
                                                 <td>Marathi Language</td>
-                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 c-red"></i>Download</a></td>
+                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 red"></i>Download</a></td>
                                             </tr>
                                             <tr>
                                                 <td>Hindi Language</td>
-                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 c-red"></i>Download</a></td>
+                                                <td><a href="javascript:void(0);"><i class="far fa-file-pdf me-2 red"></i>Download</a></td>
                                             </tr>
                                         </tbody>
                                     </table>

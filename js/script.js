@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// ==================== WOW.JS ANIMATION ==================== //
-new WOW().init();
-
 
 // ==================== TRENDING DISINTEGRATION ANIMATION ==================== //
 (function initTrendingDisintegration() {
@@ -113,6 +110,7 @@ new WOW().init();
     content.addEventListener('mouseleave', () => { isPaused = false; });
     tick();
 })();
+
 
 
 // ==================== CARDS DISINTEGRATION ANIMATION ==================== //
@@ -415,6 +413,7 @@ async function thanosAssemble(elements) {
 }
 
 
+
 // ==================== CARDS PAGINATION ==================== //
 const itemsPerPage = 8;
 document.querySelectorAll('.panel-card').forEach(panel => {
@@ -528,8 +527,8 @@ document.querySelectorAll('.panel-card').forEach(panel => {
 });
 
 
-// ==================== MEGA MENU SCRIPTS ==================== //
 
+// ==================== MEGA MENU SCRIPTS ==================== //
 // Mega Menu Accordion Logic
 document.querySelectorAll('.nested-toggle').forEach(function (toggle) {
     toggle.addEventListener('click', function (e) {
@@ -546,10 +545,12 @@ document.querySelectorAll('.nested-toggle').forEach(function (toggle) {
 });
 
 // Mega Menu Live Search Filtering
-document.querySelectorAll('.mega-search-input').forEach(function (input) {
-    input.addEventListener('input', function () {
-        const query = this.value.toLowerCase().trim();
-        const column = this.closest('.mega-menu-col');
+document.addEventListener('input', function (e) {
+    if (e.target && e.target.classList.contains('mega-search-input')) {
+        const input = e.target;
+        const query = input.value.toLowerCase().trim();
+        const column = input.closest('.mega-menu-col');
+        if (!column) return;
 
         // Find the main ul inside this column
         const mainUl = column.querySelector('ul');
@@ -600,7 +601,7 @@ document.querySelectorAll('.mega-search-input').forEach(function (input) {
                 }
             }
         });
-    });
+    }
 });
 
 // Mobile Mega Menu Toggle (click instead of hover)
@@ -615,6 +616,7 @@ document.querySelectorAll('.has-mega-menu > .nav-link').forEach(function (toggle
 });
 
 
+
 // ==================== CLOSE ADS ==================== //
 function closeAds() {
     const ads = document.getElementById("adsBanner");
@@ -624,6 +626,7 @@ function closeAds() {
         ads.style.display = "none";
     }, 300);
 }
+
 
 
 // ==================== ALL STATES HEADING SYNC ==================== //
@@ -661,6 +664,7 @@ document.querySelectorAll(".view-btn").forEach(btn => {
 });
 
 
+
 // ==================== STATE PAGE HEADING SYNC ==================== //
 document.addEventListener('DOMContentLoaded', function () {
     const sidebarTabs = document.getElementById('sidebarTabs');
@@ -676,7 +680,8 @@ document.addEventListener('DOMContentLoaded', function () {
             'admission': { title: 'College & University Admissions in Maharashtra', text: 'Showing <strong>1–4</strong> of <strong>112</strong> Admissions' },
             'scholarship': { title: 'Government Scholarships in Maharashtra', text: 'Showing <strong>1–4</strong> of <strong>48</strong> Scholarships' },
             'questionpaper': { title: 'Previous Year Question Papers in Maharashtra', text: 'Showing <strong>1–4</strong> of <strong>214</strong> Question Papers' },
-            'yojana': { title: 'Government Schemes & Yojana in Maharashtra', text: 'Showing <strong>1–4</strong> of <strong>76</strong> Schemes' }
+            'yojana': { title: 'Government Schemes & Yojana in Maharashtra', text: 'Showing <strong>1–4</strong> of <strong>76</strong> Schemes' },
+            'document': { title: 'Government Documents in Maharashtra', text: 'Showing <strong>1–4</strong> of <strong>76</strong> Documents' }
         };
 
         const tabLinks = sidebarTabs.querySelectorAll('a[data-bs-toggle="tab"]');
@@ -693,6 +698,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+
 // ==================== SCROLL TO SECTION & STICKY NAV & SCROLLSPY ==================== //
 const navLinks = document.querySelectorAll(".tab-nav li a");
 const tabNav = document.querySelector(".details-tabs .tab-nav");
@@ -706,7 +712,6 @@ navLinks.forEach(link => {
         tabSections.push(target);
     }
 });
-
 
 if (navLinks.length && tabNav) {
     navLinks.forEach(link => {
@@ -787,3 +792,312 @@ if (navLinks.length && tabNav) {
         }
     });
 }
+
+
+
+// ==================== MOBILE DRAWER TOGGLE ==================== //
+(function initMobileDrawer() {
+    // Drawer elements
+    const toggleBtn = document.getElementById('mobileMenuToggle');
+    const closeBtn = document.getElementById('drawerCloseBtn');
+    const overlay = document.getElementById('mobileDrawerOverlay');
+    const drawer = document.getElementById('mobileDrawer');
+
+    // Generate mobile menu dynamically from desktop navbar
+    function generateMobileMenu() { 
+        const desktopMenu = document.querySelector('#mainNavbar .navbar-nav');
+        const mobileMenuContainer = document.querySelector('#mobileDrawer .drawer-menu');
+        if (!desktopMenu || !mobileMenuContainer) return;
+
+        // Clear existing mobile menu items
+        mobileMenuContainer.innerHTML = '';
+
+        // Icon mapping based on lowercase link text
+        const iconMap = {
+            'home': { icon: 'far fa-home', class: 'icon-home' },
+            'jobs': { icon: 'far fa-briefcase', class: 'icon-jobs' },
+            'results': { icon: 'far fa-trophy', class: 'icon-results' },
+            'admit card': { icon: 'far fa-id-card', class: 'icon-admit' },
+            'answer key': { icon: 'far fa-key', class: 'icon-key' },
+            'syllabus': { icon: 'far fa-book', class: 'icon-syllabus' },
+            'admission': { icon: 'far fa-graduation-cap', class: 'icon-admission' },
+            'scholarship': { icon: 'far fa-medal', class: 'icon-scholarship' },
+            'question paper': { icon: 'far fa-file-lines', class: 'icon-question' },
+            'yojana': { icon: 'far fa-hands-holding-heart', class: 'icon-yojana' },
+            'document': { icon: 'far fa-file', class: 'icon-document' }
+        };
+
+        const items = desktopMenu.querySelectorAll(':scope > li.nav-item');
+        items.forEach(item => {
+            const link = item.querySelector('.nav-link');
+            if (!link) return;
+
+            // Extract only text node content (ignore chevron icon or other nested tags)
+            let text = '';
+            link.childNodes.forEach(node => {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    text += node.textContent;
+                }
+            });
+            text = text.trim();
+
+            const href = link.getAttribute('href') || '#';
+            const isActive = link.classList.contains('active');
+            const hasSubmenu = item.classList.contains('has-mega-menu') || item.classList.contains('dropdown');
+
+            const li = document.createElement('li');
+            li.className = 'drawer-item' + (isActive ? ' active' : '') + (hasSubmenu ? ' has-submenu' : '');
+
+            const key = text.toLowerCase();
+            const iconInfo = iconMap[key] || { icon: 'fas fa-link', class: 'icon-default' };
+
+            const a = document.createElement('a');
+            a.className = 'drawer-link' + (hasSubmenu ? ' toggle-submenu' : '');
+            a.href = hasSubmenu ? 'javascript:void(0);' : href;
+
+            const iconSpan = document.createElement('span');
+            iconSpan.className = `drawer-icon ${iconInfo.class}`;
+            const iconI = document.createElement('i');
+            iconI.className = iconInfo.icon;
+            iconSpan.appendChild(iconI);
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'drawer-text';
+            textSpan.textContent = text;
+
+            a.appendChild(iconSpan);
+            a.appendChild(textSpan);
+
+            if (hasSubmenu) {
+                const arrowSpan = document.createElement('span');
+                arrowSpan.className = 'drawer-arrow';
+                const arrowI = document.createElement('i');
+                arrowI.className = 'fas fa-chevron-right';
+                arrowSpan.appendChild(arrowI);
+                a.appendChild(arrowSpan);
+            }
+
+            li.appendChild(a);
+
+            // Submenu specific content
+            if (hasSubmenu) {
+                const submenuUl = document.createElement('div');
+                submenuUl.className = 'drawer-submenu';
+
+                const megaMenu = item.querySelector('.mega-menu');
+                if (megaMenu) {
+                    const cols = megaMenu.querySelectorAll('.mega-menu-col');
+                    if (cols.length > 0) {
+                        cols.forEach(col => {
+                            // Deeply clone the column element
+                            const colClone = col.cloneNode(true);
+                            
+                            // Remove unique ID attributes to prevent duplicate DOM IDs
+                            colClone.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
+                            
+                            // Make column header clickable to toggle content
+                            const colHeader = colClone.querySelector('.mega-col-header h3');
+                            if (colHeader) {
+                                const chevron = document.createElement('i');
+                                chevron.className = 'fas fa-chevron-right mega-col-toggle-icon';
+                                colHeader.appendChild(chevron);
+                                
+                                colHeader.addEventListener('click', function () {
+                                    // Accordion: close other columns in same submenu
+                                    const siblingCols = submenuUl.querySelectorAll('.mega-menu-col.col-open');
+                                    siblingCols.forEach(sib => {
+                                        if (sib !== colClone) sib.classList.remove('col-open');
+                                    });
+                                    colClone.classList.toggle('col-open');
+                                });
+                            }
+                            
+                            submenuUl.appendChild(colClone);
+                        });
+                    }
+                }
+                
+                li.appendChild(submenuUl);
+            }
+
+            mobileMenuContainer.appendChild(li);
+        });
+    }
+
+    // Set active link class based on current URL path
+    function setActiveNavLink() {
+        let currentPage = window.location.pathname.split("/").pop();
+        if (!currentPage || currentPage === 'index.php') {
+            currentPage = 'index.php';
+        }
+        
+        const navLinks = document.querySelectorAll('#mainNavbar .nav-link');
+        navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href) {
+                const linkPage = href.split('/').pop();
+                if (linkPage === currentPage) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            }
+        });
+    }
+
+    // Initialize the mobile menu dynamically before binding events
+    setActiveNavLink();
+    generateMobileMenu();
+
+    // Toggle drawer state
+    function openDrawer() {
+        if (drawer && overlay) {
+            drawer.classList.add('active');
+            overlay.classList.add('active');
+            document.body.classList.add('body-no-scroll');
+        }
+    }
+
+    function closeDrawer() {
+        if (drawer && overlay) {
+            drawer.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.classList.remove('body-no-scroll');
+        }
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener('click', openDrawer);
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+    if (overlay) overlay.addEventListener('click', closeDrawer);
+
+    // Close on ESC key
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('active')) {
+            closeDrawer();
+        }
+    });
+
+    // Swipe-to-close gesture (swipe left to close)
+    if (drawer) {
+        let touchStartX = 0;
+        let touchCurrentX = 0;
+        let isSwiping = false;
+
+        drawer.addEventListener('touchstart', function (e) {
+            touchStartX = e.touches[0].clientX;
+            touchCurrentX = touchStartX; // Reset so a tap (no move) produces diff=0
+            isSwiping = true;
+        }, { passive: true });
+
+        drawer.addEventListener('touchmove', function (e) {
+            if (!isSwiping) return;
+            touchCurrentX = e.touches[0].clientX;
+            const diff = touchStartX - touchCurrentX;
+            // Only track leftward swipes
+            if (diff > 0) {
+                const translateX = Math.min(diff, drawer.offsetWidth);
+                drawer.style.transition = 'none';
+                drawer.style.transform = `translateX(-${translateX}px)`;
+            }
+        }, { passive: true });
+
+        drawer.addEventListener('touchend', function () {
+            if (!isSwiping) return;
+            isSwiping = false;
+            const diff = touchStartX - touchCurrentX;
+            drawer.style.transition = '';
+            // If swiped more than 30% of drawer width, close it
+            if (diff > drawer.offsetWidth * 0.3) {
+                closeDrawer();
+            } else {
+                // Snap back
+                drawer.style.transform = '';
+            }
+        }, { passive: true });
+    }
+
+    // Submenu Toggle within drawer
+    if (drawer) {
+        const submenus = drawer.querySelectorAll('.drawer-item.has-submenu');
+        submenus.forEach(item => {
+            const toggleLink = item.querySelector('.drawer-link');
+            const submenuUl = item.querySelector('.drawer-submenu');
+            if (toggleLink && submenuUl) {
+                toggleLink.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const isOpen = item.classList.contains('open');
+                    
+                    // Close other submenus first (accordion behavior)
+                    submenus.forEach(other => {
+                        if (other !== item) {
+                            other.classList.remove('open');
+                            // Also collapse inner mega-menu columns
+                            const otherUl = other.querySelector('.drawer-submenu');
+                            if (otherUl) {
+                                otherUl.querySelectorAll('.mega-menu-col.col-open').forEach(col => col.classList.remove('col-open'));
+                            }
+                        }
+                    });
+                    
+                    if (isOpen) {
+                        item.classList.remove('open');
+                        // Collapse inner mega-menu columns when closing
+                        submenuUl.querySelectorAll('.mega-menu-col.col-open').forEach(col => col.classList.remove('col-open'));
+                    } else {
+                        item.classList.add('open');
+                    }
+                });
+            }
+        });
+    }
+})();
+
+
+
+// ==================== DARK MODE SYSTEM ==================== //
+function setTheme(theme) {
+    if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        document.documentElement.removeAttribute('data-theme');
+    }
+
+    localStorage.setItem('theme', theme);
+    updateThemeIcons(theme);
+}
+
+function getCurrentTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+}
+
+function toggleTheme() {
+    const newTheme = getCurrentTheme() === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+}
+
+function updateThemeIcons(theme) {
+    document.querySelectorAll('.header-mode-btn i').forEach(icon => {
+        icon.classList.toggle('fa-moon', theme === 'light');
+        icon.classList.toggle('fa-sun', theme === 'dark');
+    });
+}
+
+function loadTheme() {
+    // Theme is already applied by the script in <head>.
+    // Here we only sync the icon.
+    updateThemeIcons(getCurrentTheme());
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    loadTheme();
+
+    document.querySelectorAll('.header-mode-btn').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            toggleTheme();
+        });
+    });
+
+});

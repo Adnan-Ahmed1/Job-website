@@ -65,47 +65,52 @@
                         <ul class="nav nav-tabs border-0 flex-column" id="sidebarTabs" role="tablist">
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link active border-0" data-bs-toggle="tab" data-bs-target="#jobs" role="tab" aria-controls="jobs" aria-selected="true">
-                                    <i class="fas fa-briefcase bg-light-blue c-blue"></i>Jobs
+                                    <i class="fas fa-briefcase bg-light-blue blue"></i>Jobs
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#results" role="tab" aria-controls="results" aria-selected="false">
-                                    <i class="fas fa-file-alt bg-light-red c-red"></i>Results
+                                    <i class="fas fa-trophy bg-light-green green"></i>Results
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#admitcard" role="tab" aria-controls="admitcard" aria-selected="false">
-                                    <i class="fas fa-id-card bg-light-green c-green"></i>Admit Card
+                                    <i class="fas fa-id-card bg-light-purple purple"></i>Admit Card
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#answerkey" role="tab" aria-controls="answerkey" aria-selected="false">
-                                    <i class="fas fa-key bg-light-purple c-purple"></i>Answer Key
+                                    <i class="fas fa-key bg-light-yellow yellow"></i>Answer Key
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#syllabus" role="tab" aria-controls="syllabus" aria-selected="false">
-                                    <i class="fas fa-book bg-light-orange c-orange"></i>Syllabus
+                                    <i class="fas fa-book bg-light-red red"></i>Syllabus
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#admission" role="tab" aria-controls="admission" aria-selected="false">
-                                    <i class="fas fa-university bg-light-teal c-teal"></i>Admission
+                                    <i class="fas fa-graduation-cap bg-light-teal teal"></i>Admission
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#scholarship" role="tab" aria-controls="scholarship" aria-selected="false">
-                                    <i class="fas fa-hand-holding-usd bg-light-brown c-brown"></i>Scholarship
+                                    <i class="fas fa-medal bg-light-orange orange"></i>Scholarship
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#questionpaper" role="tab" aria-controls="questionpaper" aria-selected="false">
-                                    <i class="fas fa-question-circle bg-light-yellow c-yellow"></i>Question Paper
+                                    <i class="fas fa-file-lines bg-light-magenta magenta"></i>Question Paper
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#yojana" role="tab" aria-controls="yojana" aria-selected="false">
-                                    <i class="fas fa-cogs bg-light-gray c-gray"></i>Yojana (Schemes)
+                                    <i class="fas fa-hands-holding-heart bg-light-brown brown"></i>Yojana
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#document" role="tab" aria-controls="document" aria-selected="false">
+                                    <i class="fas fa-file bg-light-gray gray"></i>Document
                                 </a>
                             </li>
                         </ul>
@@ -995,6 +1000,104 @@
                                             <div>
                                                 <p class="title">Majhi Ladki Bahin Yojana Online Registration</p>
                                                 <p class="subtitle">Dept of Women &amp; Child Development, Maharashtra</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-friends"></i>
+                                                    <span>Beneficiary: Eligible Women</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-hand-holding-usd"></i>
+                                                    <span>Benefit: Rs. 1500 / Month</span>
+                                                </div>
+                                            </div>
+                                            <a href="yojana-details.php" class="btn">Apply Online Form</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge bg-success">Active</div>
+                                        <div class="header">
+                                            <img src="img/drdo.png" class="logo">
+                                            <div>
+                                                <p class="title">Sanjay Gandhi Niradhaar Anudan Yojana Form</p>
+                                                <p class="subtitle">Social Justice &amp; Special Assistance Department</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-friends"></i>
+                                                    <span>Beneficiary: Destitutes &amp; Widows</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-hand-holding-usd"></i>
+                                                    <span>Benefit: Monthly Pension</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">Apply Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge bg-success">Active</div>
+                                        <div class="header">
+                                            <img src="img/ssc.png" class="logo">
+                                            <div>
+                                                <p class="title">Maharashtra Shravanbal Seva State Pension Scheme</p>
+                                                <p class="subtitle">Govt of Maharashtra State Pension Scheme</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-friends"></i>
+                                                    <span>Beneficiary: Senior Citizens (65+)</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-hand-holding-usd"></i>
+                                                    <span>Benefit: Rs. 1000 / Month</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">Apply Here</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge bg-success">Active</div>
+                                        <div class="header">
+                                            <img src="img/drdo.png" class="logo">
+                                            <div>
+                                                <p class="title">Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY)</p>
+                                                <p class="subtitle">State Health Assurance Society, Maharashtra</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-friends"></i>
+                                                    <span>Beneficiary: All Citizens</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-heartbeat"></i>
+                                                    <span>Benefit: Free Insurance Coverage</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">Check Eligibility</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DOCUMENT TAB -->
+                            <div class="tab-pane fade" id="document" role="tabpanel">
+                                <div class="category-grid">
+                                    <div class="card">
+                                        <div class="badge bg-success">Verified</div>
+                                        <div class="header">
+                                            <img src="img/navy.png" class="logo">
+                                            <div>
+                                                <p class="title">Maharashtra EWS Certificate</p>
+                                                <p class="subtitle">Social Justice &amp; Special Assistance Department</p>
                                             </div>
                                         </div>
                                         <div class="info">

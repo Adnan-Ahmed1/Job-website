@@ -2,7 +2,7 @@
 
 <main>
 
-    <section class="breadcrumb-section">
+    <!-- <section class="breadcrumb-section">
         <div class="container">
             <div class="breadcrumb-wrap">
                 <div class="breadcrumb-img" style="background-image: url('img/state-img.jpg');"></div>
@@ -13,14 +13,14 @@
                     <i class="far fa-angle-right"></i>
                     <span>Maharashtra</span>
                 </div>
-                <div class="state-hero">
-                    <div class="hero-map">
+                <div class="breadcrumb-hero">
+                    <div class="breadcrumb-map">
                         <img src="img/state-map.png" alt="Maharashtra">
                         <div class="map-state-icon">
                             <i class="fas fa-landmark"></i>
                         </div>
                     </div>
-                    <div class="hero-content">
+                    <div class="breadcrumb-content">
                         <h2>Maharashtra</h2>
                         <h4>Official Government Updates & Opportunities</h4>
                         <p>
@@ -28,24 +28,24 @@
                             answer keys, admissions, scholarships, schemes and more
                             from the Government of Maharashtra.
                         </p>
-                        <div class="state-info">
-                            <div class="state-info-item">
+                        <div class="breadcrumb-info">
+                            <div class="breadcrumb-info-item">
                                 <small>Capital</small>
                                 <strong>Mumbai</strong>
                             </div>
-                            <div class="state-info-item">
+                            <div class="breadcrumb-info-item">
                                 <small>Population</small>
                                 <strong>11.24 Crore</strong>
                             </div>
-                            <div class="state-info-item">
+                            <div class="breadcrumb-info-item">
                                 <small>Area</small>
                                 <strong>307,713 km²</strong>
                             </div>
-                            <div class="state-info-item">
+                            <div class="breadcrumb-info-item">
                                 <small>Districts</small>
                                 <strong>36</strong>
                             </div>
-                            <div class="state-info-item">
+                            <div class="breadcrumb-info-item">
                                 <small>Official Website</small>
                                 <strong><a href="javascript:void(0)">maharashtra.gov.in <i class="far fa-up-right-from-square ms-1"></i></a></strong>
                             </div>
@@ -54,6 +54,26 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="custom-hero">
+        <div class="container">
+            <nav class="custom-breadcrumb">
+                <a href="index.php">
+                    <span class="crumb-icon"><i class="far fa-home"></i></span>Home
+                </a>
+                <span class="custom-divider"><i class="far fa-chevron-right"></i></span>
+                <span class="active">Jobs</span>
+            </nav>
+            <div class="custom-content">
+                <h1>Jobs</h1>
+                <p>
+                    Find the latest government job notifications, exam dates,
+                    eligibility, and application details all in one place.
+                </p>
+            </div>
+        </div>
+        <img src="img/breadcrumb.png" class="img-fluid custom-image" alt="">
     </section>
 
     <section class="catagory-page">
@@ -139,6 +159,168 @@
                             <!-- JOBS TAB -->
                             <div class="tab-pane fade show active" id="jobs" role="tabpanel">
                                 <div class="category-grid">
+                                    <div class="card">
+                                        <div class="badge">New</div>
+                                        <div class="header">
+                                            <img src="img/drdo.png" class="logo">
+                                            <div>
+                                                <p class="title">MPSC State Service Combine Group B & C 2024</p>
+                                                <p class="subtitle">Maharashtra Public Service Commission</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-briefcase"></i>
+                                                    <span>1250 Posts</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-graduate"></i>
+                                                    <span>Graduate</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-calendar"></i>
+                                                    <span>Last Date: 30 May 2026</span>
+                                                </div>
+                                            </div>
+                                            <a href="job-details.php" class="btn">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge">New</div>
+                                        <div class="header">
+                                            <img src="img/ssc.png" class="logo">
+                                            <div>
+                                                <p class="title">MPSC State Service Combine Group B & C 2024</p>
+                                                <p class="subtitle">Maharashtra Public Service Commission</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-briefcase"></i>
+                                                    <span>1250 Posts</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-graduate"></i>
+                                                    <span>Graduate</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-calendar"></i>
+                                                    <span>Last Date: 30 May 2026</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge">New</div>
+                                        <div class="header">
+                                            <img src="img/navy.png" class="logo">
+                                            <div>
+                                                <p class="title">MPSC State Service Combine Group B & C 2024</p>
+                                                <p class="subtitle">Maharashtra Public Service Commission</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-briefcase"></i>
+                                                    <span>1250 Posts</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-graduate"></i>
+                                                    <span>Graduate</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-calendar"></i>
+                                                    <span>Last Date: 30 May 2026</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge">New</div>
+                                        <div class="header">
+                                            <img src="img/drdo.png" class="logo">
+                                            <div>
+                                                <p class="title">MPSC State Service Combine Group B & C 2024</p>
+                                                <p class="subtitle">Maharashtra Public Service Commission</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-briefcase"></i>
+                                                    <span>1250 Posts</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-graduate"></i>
+                                                    <span>Graduate</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-calendar"></i>
+                                                    <span>Last Date: 30 May 2026</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge">New</div>
+                                        <div class="header">
+                                            <img src="img/ssc.png" class="logo">
+                                            <div>
+                                                <p class="title">MPSC State Service Combine Group B & C 2024</p>
+                                                <p class="subtitle">Maharashtra Public Service Commission</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-briefcase"></i>
+                                                    <span>1250 Posts</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-graduate"></i>
+                                                    <span>Graduate</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-calendar"></i>
+                                                    <span>Last Date: 30 May 2026</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="badge">New</div>
+                                        <div class="header">
+                                            <img src="img/navy.png" class="logo">
+                                            <div>
+                                                <p class="title">MPSC State Service Combine Group B & C 2024</p>
+                                                <p class="subtitle">Maharashtra Public Service Commission</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="meta">
+                                                <div class="meta-item">
+                                                    <i class="far fa-briefcase"></i>
+                                                    <span>1250 Posts</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-user-graduate"></i>
+                                                    <span>Graduate</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <i class="far fa-calendar"></i>
+                                                    <span>Last Date: 30 May 2026</span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn">View Details</a>
+                                        </div>
+                                    </div>
                                     <div class="card">
                                         <div class="badge">New</div>
                                         <div class="header">

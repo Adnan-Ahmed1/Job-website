@@ -42,10 +42,9 @@
 
     .newsletter-banner {
         flex-wrap: wrap;
-        padding: 20px;
         gap: 20px;
     }
-    
+
     .newsletter-left {
         order: 1;
     }
@@ -53,17 +52,17 @@
     .newsletter-text p {
         max-width: 250px;
     }
-    
+
     .newsletter-form-container {
         order: 4;
         width: 100%;
         max-width: 100%;
     }
-    
+
     .newsletter-divider {
         order: 2;
     }
-    
+
     .newsletter-right {
         order: 3;
     }
@@ -103,11 +102,6 @@
 
     .header-search input {
         font-size: 12px;
-    }
-
-    .header-search .search-btn {
-        padding: 6px 12px;
-        font-size: 13px;
     }
 
     .header-actions {
@@ -451,9 +445,114 @@
         gap: 10px 30px;
         justify-content: center;
     }
+
+    /* Mobile Search Toggle Button & Sticky Header Styling */
+    .header-search-toggle-btn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--gray-200);
+        color: var(--primary);
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    .header-search-toggle-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(22, 163, 74, 0.2);
+    }
+
+    .header-search-toggle-btn i {
+        font-size: 18px;
+    }
+
+    /* Sticky Mobile Header Base */
+    .main-header.header-sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1040;
+        background-color: var(--white);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+        padding: 10px 0;
+        animation: mobileHeaderSlideDown 0.3s ease-out;
+    }
+
+    @keyframes mobileHeaderSlideDown {
+        from {
+            transform: translateY(-100%);
+        }
+
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    /* Sticky Mode Changes */
+    .main-header.header-sticky .header-search {
+        display: none;
+    }
+
+    .main-header.header-sticky .header-search-toggle-btn {
+        display: flex;
+    }
+
+    .main-header.header-sticky .header-social-btn,
+    .main-header.header-sticky .header-mode-btn,
+    .main-header.header-sticky .header-line {
+        display: none !important;
+    }
+
+    /* Active Search State (Overlay) */
+    .main-header.header-sticky.search-active .header-search {
+        display: flex;
+        position: absolute;
+        left: 10px;
+        right: 110px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        max-width: none;
+        z-index: 1050;
+        background-color: var(--white);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        border: 1px solid var(--primary);
+        padding: 5px 5px 5px 12px;
+        border-radius: 8px;
+        animation: mobileSearchExpand 0.2s ease-out;
+    }
+
+    @keyframes mobileSearchExpand {
+        from {
+            opacity: 0;
+            transform: translateY(-50%) scale(0.95);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(-50%) scale(1);
+        }
+    }
+
+    .main-header.header-sticky.search-active .navbar-toggler,
+    .main-header.header-sticky.search-active .logo {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+
 }
 
 @media (max-width: 767px) {
+    .container {
+        padding: 0 10px;
+    }
+
     .header-container {
         gap: 10px 25px;
         padding: 0 10px;
@@ -608,24 +707,24 @@
     .newsletter-text p {
         max-width: 100%;
     }
-    
+
     .newsletter-form-container {
         order: 2;
     }
-    
+
     .newsletter-form {
         flex-direction: column;
         background: transparent;
         border: none;
         gap: 10px;
     }
-    
+
     .newsletter-form input {
         width: 100%;
         border: 1px solid var(--gray-300);
         border-radius: 8px;
     }
-    
+
     .newsletter-form button {
         width: 100%;
         border-radius: 8px;
@@ -633,7 +732,7 @@
 
     .newsletter-divider {
         display: none;
-    }    
+    }
 
     .footer-col-brand img {
         position: relative;
@@ -649,5 +748,13 @@
 
     .footer-bottom-right {
         justify-content: center;
+    }
+
+    .custom-image {
+        display: none;
+    }
+
+    .custom-content p {
+        font-size: 14px;
     }
 }

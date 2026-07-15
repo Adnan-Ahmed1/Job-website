@@ -49,10 +49,10 @@
                             </div>                            
                         </div>
 
-                        <!-- Explore Column -->
+                        <!-- Explore Categories Column -->
                         <div class="col-xl-auto col-lg-3 col-md-auto order-md-3 order-xl-2">
                             <div class="footer-col">
-                                <h3>Explore</h3>
+                                <h3>Explore Categories</h3>
                                 <ul class="footer-links-list">
                                     <li>
                                         <a href="javascript:void(0);">
@@ -101,10 +101,10 @@
                             </div>
                         </div>
 
-                        <!-- Popular Categories Column -->
+                        <!-- Popular Searches Column -->
                         <div class="col-xl-auto col-lg-3 col-md-auto order-md-4 order-xl-3">
                             <div class="footer-col">
-                                <h3>Popular Categories</h3>
+                                <h3>Popular Searches</h3>
                                 <ul class="footer-links-list">
                                     <li>
                                         <a href="javascript:void(0);">
@@ -265,11 +265,70 @@
                 </div>
             </footer>
 
+            <!-- Floating Sidebar CTA (Mobile & Tablet) -->
+            <div class="sidebar-cta" id="sidebarCta">
+                <svg class="cta-curve-line" viewBox="0 0 120 430">
+                    <path d="M 250 0 C 20 110, 20 320, 250 430" fill="none" stroke="var(--primary)"stroke-width="1.5"stroke-dasharray="6,5"stroke-opacity="0.35"stroke-linecap="round"/>
+                </svg>
+
+                <!-- Menu Items -->
+                <a href="javascript:void(0);" class="cta-item cta-item-5" aria-label="Telegram">
+                    <span class="cta-label">Telegram</span>
+                    <div class="cta-btn telegram">
+                        <i class="fab fa-telegram-plane blue"></i>
+                    </div>
+                </a>
+
+                <a href="javascript:void(0);" class="cta-item cta-item-4" aria-label="WhatsApp">
+                    <span class="cta-label">WhatsApp</span>
+                    <div class="cta-btn whatsapp">
+                        <i class="fab fa-whatsapp green"></i>
+                    </div>
+                </a>
+
+                <a href="javascript:void(0);" class="cta-item cta-item-3" aria-label="Instagram">
+                    <span class="cta-label">Instagram</span>
+                    <div class="cta-btn instagram">
+                        <i class="fab fa-instagram red"></i>
+                    </div>
+                </a>
+
+                <a href="javascript:void(0);" class="cta-item cta-item-2 header-mode-btn" aria-label="Toggle dark mode">
+                    <span class="cta-label">Dark Mode</span>
+                    <div class="cta-btn dark-mode-toggle">
+                        <i class="far fa-moon"></i>
+                    </div>
+                </a>
+
+                <a href="javascript:void(0);" class="cta-item cta-item-1" aria-label="My Account">
+                    <span class="cta-label">My Account</span>
+                    <div class="cta-btn my-account">
+                        <i class="far fa-user green"></i>
+                    </div>
+                </a>
+
+                <!-- Trigger Button -->
+                <button type="button" class="cta-trigger" id="ctaTrigger" aria-label="Toggle floating menu">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+
             <script src="js/bootstrap.bundle.js"></script>
             <!-- <script src="js/html2canvas.min.js"></script> -->
             <!-- <script src="js/wow.min.js"></script> -->
-            <script src="js/mapdata.js"></script>
-            <script src="js/countrymap.js"></script>
+            <script>
+                // Conditionally load map scripts only on pages that have a #map element
+                if (document.getElementById('map')) {
+                    var s1 = document.createElement('script');
+                    s1.src = 'js/mapdata.js';
+                    s1.onload = function() {
+                        var s2 = document.createElement('script');
+                        s2.src = 'js/countrymap.js';
+                        document.body.appendChild(s2);
+                    };
+                    document.body.appendChild(s1);
+                }
+            </script>
             <script src="js/script.js"></script>
             </body>
 

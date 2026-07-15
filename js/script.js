@@ -4,6 +4,132 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+// ==================== NAVBAR STICKY TOP & MOBILE STICKY HEADER ==================== //
+const navbar = document.querySelector(".navbar");
+const header = document.querySelector(".main-header");
+const mobileSearchToggle = document.getElementById("mobileSearchToggle");
+const searchInput = document.querySelector(".header-search input");
+const sidebarCta = document.getElementById("sidebarCta");
+const ctaTrigger = document.getElementById("ctaTrigger");
+let isMobileSticky = false;
+
+function resetMobileSearch() {
+    if (header) {
+        header.classList.remove("search-active");
+    }
+    if (mobileSearchToggle) {
+        const toggleIcon = mobileSearchToggle.querySelector("i");
+        if (toggleIcon) {
+            toggleIcon.className = "far fa-search";
+        }
+    }
+}
+
+function handleStickyNav() {
+    if (!header || !navbar) return;
+
+    // Sidebar CTA visibility — all viewports
+    const ctaThreshold = 300;
+    if (sidebarCta) {
+        if (window.scrollY > ctaThreshold) {
+            sidebarCta.classList.add("visible");
+        } else {
+            sidebarCta.classList.remove("visible");
+            sidebarCta.classList.remove("active");
+        }
+    }
+
+    // Desktop Sticky Navigation
+    if (window.innerWidth >= 992) {
+        // Reset mobile sticky states if we resize to desktop
+        document.body.style.paddingTop = "0px";
+        isMobileSticky = false;
+        resetMobileSearch();
+        header.classList.remove("header-sticky");
+
+        if (window.scrollY >= header.offsetHeight) {
+            navbar.classList.add("nav-fixed");
+        } else {
+            navbar.classList.remove("nav-fixed");
+        }
+    } 
+    // Mobile Sticky Header
+    else {
+        navbar.classList.remove("nav-fixed");
+
+        const threshold = header.offsetHeight || 120;
+        if (window.scrollY > threshold) {
+            if (!isMobileSticky) {
+                const headerHeight = header.offsetHeight;
+                document.body.style.paddingTop = headerHeight + "px";
+                header.classList.add("header-sticky");
+                isMobileSticky = true;
+            }
+        } else {
+            if (isMobileSticky) {
+                document.body.style.paddingTop = "0px";
+                header.classList.remove("header-sticky");
+                isMobileSticky = false;
+                resetMobileSearch();
+            }
+        }
+    }
+}
+
+window.addEventListener("scroll", handleStickyNav);
+window.addEventListener("resize", handleStickyNav);
+
+// Search Toggle Actions on Mobile Sticky Header
+if (mobileSearchToggle) {
+    mobileSearchToggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (header) {
+            const isActive = header.classList.toggle("search-active");
+            const toggleIcon = mobileSearchToggle.querySelector("i");
+            if (toggleIcon) {
+                if (isActive) {
+                    toggleIcon.className = "far fa-times";
+                    if (searchInput) {
+                        searchInput.focus();
+                    }
+                } else {
+                    toggleIcon.className = "far fa-search";
+                }
+            }
+        }
+    });
+}
+
+// Click outside to close search bar
+document.addEventListener("click", function (e) {
+    if (header && header.classList.contains("search-active")) {
+        const searchContainer = document.querySelector(".header-search");
+        if (searchContainer && !searchContainer.contains(e.target) && !mobileSearchToggle.contains(e.target)) {
+            resetMobileSearch();
+        }
+    }
+});
+
+// Sidebar CTA Toggle Actions
+if (ctaTrigger && sidebarCta) {
+    ctaTrigger.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        sidebarCta.classList.toggle("active");
+    });
+
+    // Close sidebar menu when clicking outside
+    document.addEventListener("click", function (e) {
+        if (sidebarCta.classList.contains("active")) {
+            if (!sidebarCta.contains(e.target)) {
+                sidebarCta.classList.remove("active");
+            }
+        }
+    });
+}
+
+
 
 // ==================== TRENDING DISINTEGRATION ANIMATION ==================== //
 (function initTrendingDisintegration() {

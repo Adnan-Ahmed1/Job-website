@@ -49,6 +49,9 @@
                     <div class="hero-right">
                         <div class="qa-header">
                             <h2>Quick Access</h2>
+                            <a href="javascript:void(0);" class="panel-header-link">
+                                View All <i class="fas fa-arrow-right"></i>
+                            </a>
                         </div>
                         <div class="quick-access-grid">
                             <a href="job.php" class="qa-card">

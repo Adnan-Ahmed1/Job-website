@@ -78,7 +78,6 @@
             <div class="header-search">
                 <i class="fas fa-search search-icon"></i>
                 <input type="text" placeholder="Search for jobs, results, admit cards...">
-                <button class="search-btn">Search</button>
             </div>
 
             <div class="header-actions">
@@ -96,6 +95,9 @@
                     <i class="far fa-moon"></i>
                 </a>
                 <div class="header-line"></div>
+                <a href="javascript:void(0);" class="header-search-toggle-btn d-lg-none" id="mobileSearchToggle" aria-label="Toggle search">
+                    <i class="far fa-search"></i>
+                </a>
                 <a href="javascript:void(0);" class="header-login-btn">
                     <i class="far fa-user"></i>
                 </a>
